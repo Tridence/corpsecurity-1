@@ -619,7 +619,7 @@ div.elem-group.inlined input {
 .images1 li{
     height: 577px;
     width: 998px;
-    bottom: 473px;
+    bottom: -178px;
     position: absolute;
     margin-left: 123px;
     }
@@ -876,7 +876,7 @@ button {
     border:#3796DA;
     color: black;
     padding-bottom: 445px;
-    margin-top: -263px;
+    margin-top: -290px;
     margin-left: 1050px;
     width: 530px;
     padding: 5px;

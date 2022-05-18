@@ -617,11 +617,10 @@
 @media screen  and (max-device-width: 1600px){
     html, body {
         max-width: 100%;
-        overflow-x: hidden;
         font-family: 'Open Sans';
-        font-weight: 900;
+        max-width: 100%;
+        overflow-x: hidden;
     }
-    
     h1{
         font-family: Open Sans;
             color: #0f1e31 ;
