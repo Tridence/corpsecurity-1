@@ -1281,6 +1281,8 @@
         }
         .banner_org2{
             width: 50%;
+            margin: 2px;
+            margin-left: 650px;
         }
         .banner2 {
             bottom: 0px;

@@ -38,8 +38,8 @@
     #image{
         position: absolute;
         margin-left: 120px;
-        margin-top: -304px;
-    }
+        margin-top: -619px;
+        }
     .column4{
         margin-left: 80px;
     }
@@ -555,6 +555,11 @@ nav li a:hover{
 #log{
     margin-left: 42px;
 }
+#image{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: -840px;
+}
 
 .column1 {
     font-size: 17px;
@@ -619,7 +624,7 @@ div.elem-group.inlined input {
 .images1 li{
     height: 577px;
     width: 998px;
-    bottom: -178px;
+    bottom: -410px;
     position: absolute;
     margin-left: 123px;
     }
@@ -981,7 +986,7 @@ button {
     .images1 li {
         height: 677px;
         width: 998px;
-        bottom: 375px;
+        bottom: 190px;
         position: absolute;
         margin-left: 123px;
     }
@@ -990,6 +995,11 @@ button {
     }
     #copyright{
         margin-top: 30px;
+    }
+    #image{
+        position: absolute;
+        margin-left: 60px;
+        margin-top: -140px;
     }
 }
 /*LAPTOP SCREENS 1366px*/
@@ -1036,13 +1046,26 @@ button {
     .navbar-header{
         width: 88%;
     }
-    
+    #image{
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 0px;
+    }
     .img-responsive {
         height: auto;
         width: auto;
         max-height: 72px;
         max-width: 220px;
         object-fit: contain;
+    }
+    .navbar-brand img{
+        height: auto;
+        width: auto;
+        max-height: 100px;
+        max-width: 220px;
+        margin-bottom: -60px;
+        object-fit: contain;
+        margin-left: -70px;
     }
     
     .column1 {
@@ -1157,9 +1180,7 @@ button {
         max-height: 100%;
     }
     
-    
-    
-    
+     
     .button-7 {
         background-color: #0095ff;
         border: 1px solid transparent;
@@ -1365,7 +1386,7 @@ button {
         border:#3796DA;
         color: black;
         padding-bottom: 445px;
-        margin-top: -263px;
+        margin-top: -320px;
         margin-left: 850px;
         width: 32%;
         padding: 5px;
