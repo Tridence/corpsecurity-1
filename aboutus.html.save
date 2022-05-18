@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./css/istyles.css">
+    <link rel="stylesheet" type="text/css" href="./css/mobile.css">
+</head>
+<body>
+    <!-- MOBILE MENU-->
+    <header class="mobmenu" id="mobiz" >
+        <a class="navbar-brand" href="./index.html"><img src="./assets/logos/csLOGOmain.png" class="img-responsive" alt="logo"/></a>
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+          <ul class="mobile-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="contactus.html">Contact</a></li>
+          </ul>
+        </div>
+      </header>
+<!-- Navigation bar -->
+<div class="container" >
+    <a class="navbar-brand2" href="./index.html"><img src="./assets/logos/csLOGOmain.png" class="img-responsive" alt="logo"/></a>
+    <div class="navbar-header">
+        <!-- Navmenu -->
+            <!-- Navmenu -->
+            <nav class="links">
+                <!-- <a class="navbar-brand" href="./index.html"><img src="./assets/logos/csLOGOmain.png" class="img-responsive" alt="logo"/></a>  -->
+                <ul class="navbarr">
+            <!-- Logo -->              
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="aboutus.html">ABOUT US</a></li>
+                    <li><a href="service.html">SERVICES</a></li>
+                    <li><a href="contactus.html">CONTACT US</a></li>
+
+                    <a href="https://www.facebook.com/"> <img src="./assets/icons/104458_facebook_social media_fb_social_icon.png" alt="facebook icon"></a>
+                    <a href="https://www.twitter.com/"> <img src="./assets/icons/2657545_media_social_twitter_website_icon.png" alt="twitter icon"></a>
+                </ul>
+            </nav>
+        </div>   
+    </div>
+
+    <div class="bannerorg">
+        <section class="banner_org">
+            <header class="container">
+                <h2 class="about_b">About <br><u>Us</u></h2>
+            </header>
+            <!-- <img src="./assets/models/bkg partern 4.jpg" alt="our services banner" height="550px" width="100%"> -->
+        </section>
+
+        <div class="imagesb">
+            <ul>
+                <li><img src="./assets/models/icons_mission_vision.png" class="iconv"></li>
+            </ul>
+        </div>
+
+        <div class="cameraft">
+            <ul>
+                <li><img src="./assets/models/CS_cam.png" height="500px" alt="" class="cameo"></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-md-6 border-right">
+            <p class="parag1">
+                Established in 2014, Corp-Security trainers and consultants Limited was formed with the intention of being a security provider with a different approach to the commercial security industry. We recognize that client service and employee welfare were two key areas that were being consistently over promised and continually under delivered by other security providers. 
+                We know how important it is to listen, understand our clients' needsand to deliver the best service solutions. At Trainers & Consultants Limited we pride ourselves in our ability to deliver the highest levels of service possible, so from the initial risk assessment onward you can rest assured you are in safe hands. 
+                To ensure the best fit' our personnel are trained to the highest standards and stringently vetted both professionally and personally.Our customer focused approach ensures we remain hands-on and able to address your on-going requirements as and when need arises. 
+                In addition, the commitment of all our employees, across the entire team means you will always receive an outstanding service. We constantly strive to be innovative and a leader in the security arena profession.
+            </p>
+            <div class="button">
+                <button class="button-7" role="button">Contact us for more</button>
+            </div>
+        </div>
+
+        <div class="col-md-6 border-right">
+            <p class="parag2">
+                Our core purpose is the protection of our clients and their assets. We do this through a risk based approach where threats are identified and disrupted, vulnerabilities pin pointed and advise on protection measures subsequely bringing down the resultant risk level down to an acceptable threshold. 
+                We have our own set of principles which apply to all Corp-security & Consultants Limited operations that are adhered to with the utmost integrity
+            </p>
+            <ol class="bluep">
+                <li>To enhance the current standard of Service offered by your i ncumbent contractor hence bringing on board professionalism.</li>
+                <li>To implement internal and external Key Performance Indicators (KPI's) for the security service (to be agreed with you as part of contract set-up) so that you as a customer has an effective measuring tool for our service provision.</li>
+                <li>To respond quickly and efficiently to your changing needs and ensure reliability of our services. Corp-Security Trainers & Consultants Limited recognizes the flexibility and attention to detall each contract demands. We understand the need for any changes to your security requirements to which will be adopted immediately. 
+                    Our success depends on our professional and individual commitment to:
+                </li>
+            </ol>
+            <ul class="blueps">
+                <li>Providing reliable and effective security solutions.</li>
+                <li>The rule of law and compliance with our own procedures.</li>
+                <li>The highest standards of professionalism, integrity, reliabluty and a sense of proportion.</li>
+                <li>Working as a team inside the organization and with partners.</li>
+                <li>Respect and support for those with whom we work with.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="indiana">
+        <div class="quote">
+            <div id="col1">
+            <div class="csquote">
+                <ul><li><img src="./assets/models/CS_quote.png" class="move" alt="quote" height="700"></li></ul>
+            </div>
+            </div>
+            <div>
+                <ul class="bullets">
+                <li><img src="./assets/models/cs female guard staff.png" class="fguard" height="570" width="550" alt="female guard"></li>
+                <li><img src="./assets/models/cs male guard staff.png" class="guardss" height="632" width="580" alt="male guard"></li>
+            </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer" id="foot">
+        <div class="container">
+            <div class="navbar-header">
+                <!-- footer menu -->
+                <nav class="footerinfo">
+                    <a class="navbar-brand" id="log" href="./index.html"><img src="./assets/logos/csLOGO_outlined_to_put_on_darkbackgrounds.png" class="img-responsive" alt="logo"/></a> 
+                    <ul class="fut" id="feet" >
+                <!-- Logo -->   
+                        <li><a href="index.html"></a>HOME</li>
+                        <li><a href="aboutus.html"></a>ABOUT US</li>
+                        <li><a href="our_servies"></a>SERVICES</li>
+                        <li><a href="contactus.html"></a>CONTACT US</li>
+                        <a href="https://www.facebook.com/"> <img src="./assets/icons/104458_facebook_social media_fb_social_icon.png" class="ficon"></a>
+                        <a href="https://www.twitter.com/"> <img src="./assets/icons/2657545_media_social_twitter_website_icon.png" class="ticon"></a>
+                    </ul>
+                    <p class="fut" id="copyright">B & R Co. All Rights Reserved</p>
+                </nav>
+            </div>   
+        </div>
+    </footer>
+    <script src="script.js"></script>  
+</body>
+</html>

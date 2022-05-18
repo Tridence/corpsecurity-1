@@ -1,0 +1,3365 @@
+@media screen  and (min-device-width: 1921px){
+    html, body{
+        display: none;
+    }
+}
+/*LAPTOP SCREENS 1920px*/
+@media only screen and (max-width: 1920px){
+    html{
+        overflow-x: hidden;
+    }
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+        font-family: 'Open Sans';
+        font-weight: 900;
+    }
+    .mobmenu{
+        display: none;
+    }
+    #copyright{
+        margin-top: 30px;
+    }
+    nav{
+        padding: 4px;
+        position: sticky;
+        z-index: 1;
+        padding-bottom: 57px;
+        margin-bottom: -40px;
+    }
+    
+    nav ul{
+        white-space: nowrap;
+        margin: 0 auto;
+        text-align: center;
+        color: #0360d8;
+    
+    }
+    #image{
+        position: absolute;
+        margin-left: 120px;
+        margin-top: -304px;
+    }
+    .column4{
+        margin-left: 80px;
+    }
+    .column3{
+        margin-left: 520px;
+        margin-top: -370px;
+    }
+       nav li{
+        font-size: 18px;
+        width: 19%;
+        text-align: center;
+        display: inline-block;
+    } 
+    
+    nav li a{
+        text-decoration: none;
+        color: #0F1E31;
+    }
+    
+    nav li a:hover{
+        text-decoration: underline;
+        color: #3796DA;
+    }
+  
+    .img-responsive {
+        max-height: 72px;
+        max-width: 350px;
+        margin-left: -23px;
+        margin-bottom: -75px;
+    }
+    .nav1{
+        width: 130%;
+        margin-left: 60px;
+    }
+    .column1 {
+        font-size: 17px;
+        text-align: left ;
+        margin-left:70px;
+        display: flex;
+        color:#3796da;
+        max-width: 100%;
+    }
+    
+    .column2 {
+        font-size: 17px;
+        margin-left: 70px;
+        display: flex;
+        margin-top: 90px;
+    }
+    
+    u{
+        text-decoration-color: #3796DA;
+    }
+    
+    .booking{
+        height: 450px;
+        background: #dbdbdb;
+        color: #0f1e31 ;
+        margin-left: 55px;
+        width: 550px;
+        float: right;
+        font-weight: bolder;
+        font-family: 'Open Sans';
+        margin-right: 147px;
+        margin-top: 55px;
+        border-radius: 12px;
+    }
+    .book{
+        font-family: 'Open Sans';
+        margin-left: 29px;
+        padding-top: 23px;
+        text-align: center;
+    }
+    
+    input, select, textarea {
+        border-radius: 4px;
+        border: 2px solid rgba(184, 182, 182, 0.666);
+        font-size: 1.25em;
+        font-family: 'Myriad Pro';
+        width: 88%;
+        background-color: #f2f2f2b6;
+        padding-left: 12px;
+        margin-block-start: 12px;
+        margin-inline-start: 5%;
+        padding-top: 6px;
+        padding: 13px;
+    }
+    
+    div.elem-group.inlined input {
+        width: 100%;
+        display: inline-block;
+    }
+    
+                
+    .images1 li{
+        height: 577px;
+        width: 998px;
+        bottom: 473px;
+        position: absolute;
+        margin-left: 253px;
+        }
+    
+    .service_b{
+        color: #3796DA;
+        padding: 30px;
+        font-size: 60px;
+        position: absolute;
+        line-height: 1.3;
+        word-spacing: -3px;
+        left: 1em;
+        top: 150px;
+        font-weight: bold;
+        text-decoration-color: #3796DA;
+        text-underline-offset: 13px;
+        font-family: 'Open Sans';
+    }
+    .row{
+        padding-top: 50px;
+    }
+    @media screen and (max-width: 600px) {
+        .column {
+          width: 100%;
+        }
+      }
+      .banner{
+        bottom: 10;
+        position: relative;
+        margin-bottom: -73px;
+    }
+    
+    .banner_org{
+        background-image: url("../assets/models/bkg\ partern\ 4.jpg");
+        background-size: 600px 350px;
+        height: 510px;
+        padding-bottom: 590px;
+        margin-left: 5px;
+        margin-right: 5px;
+        
+    }
+    
+    .banner img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
+    .navbar-header{
+        margin-bottom: 43px;
+    }
+    
+    .button-7 {
+        background-color: #0095ff;
+        border: 1px solid transparent;
+        border-radius: 3px;
+        box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 1.15385;
+        margin: 0;
+        outline: none;
+        padding: 8px .8em;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: baseline;
+        white-space: nowrap;
+    }
+    
+    .button-8 {
+        background-color: #0F1E31;
+        border: 1px solid transparent;
+        border-radius: 3px;
+        box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 1.15385;
+        margin: 0;
+        outline: none;
+        padding: 8px .8em;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: baseline;
+        white-space: nowrap;
+        margin-left: 16em;
+        /* margin-right: 10em; */
+    }
+    
+    .button-7:hover,
+    .button-7:focus {
+        background-color: #07c;
+    }
+    
+    .button-7:focus {
+        box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+    }
+    
+    .button-7:active {
+        background-color: #0064bd;
+        box-shadow: none;
+    }
+    
+    .imagesb{
+        flex: right;
+        position: absolute;
+        top: -130px;
+        right: -20em;
+    }
+    
+    .cameraft{
+        position: absolute;
+        display: block;
+        margin: auto;
+        width: 50%;
+        margin-top: 0;
+        top: 120px;
+        right: 40em;
+    }
+    
+    .border-right {
+        border-right: 1px solid black;
+    }
+    
+    #col1 {
+        background: #3796DA;
+        height: 200px;
+        margin-top: 50px;
+    }
+    
+    .csquote{
+        float: right;
+    }
+    
+    .move{
+        margin-top: -16em;
+        list-style-type: none;
+    
+    }
+    
+    .guardss{
+        position: absolute;
+        list-style-type: none;
+        text-align: center;
+        display: block;
+        right: 47em;
+        top: 62em;
+    }
+    
+    .fguard{
+        position: absolute;
+        left: 23em;
+        top: 66em;
+    }
+    
+    .bullets{
+        list-style-type: none;
+    }
+    
+    .border-right{
+        border-right: 1px solid black;
+    }
+    
+    .parag1{
+        margin-top: 30px;
+        margin-left: 15em;
+        margin-right: 15em;
+        font-size: 14px;
+        text-align: justify;
+        font-weight: bolder;
+    }
+    
+    .parag2{
+        margin-top: 30px;
+        font-weight: bolder;
+        margin-left: 10em;
+        margin-right: 10em;
+    }
+    
+    .bluep{
+        color: #3796DA;
+        margin-left: 10em;
+        margin-right: 10em;
+        font-size: 13px;
+    }
+    
+    .blueps{
+        color: #3796DA;
+        margin-left: 12em;
+        margin-right: 12em;
+        font-size: 12px;
+    }
+    
+    .footer{
+        background-image: url("../assets/models/bkg\ partern\ 4.jpg");
+        width: 100%;
+        background-size: 600px 450px;
+        margin-top: 8em;
+        height: 100%;
+    }
+    
+    .fut{
+        color: white;
+        width: 100%;
+    }
+    #log{
+        margin-left: 42px;
+    }
+    
+    
+    button:hover,
+    button:focus {
+        background-color: #3796da;
+    }
+    button {
+        height: 34px;
+        background: #3796da;
+        border: none;
+        color: white;
+        font-size: 1.25em;
+        font-family: 'Nanum Gothic';
+        border-radius: 4px;
+        cursor: pointer;
+        width: 167px;
+        margin-left: 29px;
+        padding-top: 5px;
+        padding: 4px;
+        border-radius: 7px;
+      }
+     
+    
+     
+      
+    
+      hr {
+        border: 1px dotted #ccc;
+      }
+      
+      .contact{
+        height: 330px;
+        border:#3796DA;
+        color: black;
+        padding-bottom: 445px;
+        margin-top: -363px;
+        margin-left: 1250px;
+        width: 550px;
+        padding: 5px;
+        float: right;
+        border-radius: 8px;
+      }
+    
+    .elem-group2{
+        margin-left: px;
+    }
+    
+    .map{
+          padding: 0em;
+          margin: 3px;
+          height: 623px;
+      }
+      .container{
+          padding-bottom: 0px;
+      }
+     
+    .h_line{
+        height: 0.5px;
+        background: #0f1e31;
+        width: 69px;
+        margin-left: 21px;
+        padding: 1px;
+        display:inline-block;
+        padding-top: 1px;
+    }
+    
+    * {box-sizing:border-box}
+    
+    /* Slideshow container */
+    .slideshow-container {
+      position: relative;
+      margin: auto;
+    }
+    
+    
+    
+    /* Next & previous buttons */
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      margin-top: -22px;
+      padding: 16px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+    
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+    }
+    
+    /* Caption text */
+    .text {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+    
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+    
+    
+    .active, .dot:hover {
+      background-color: #717171;
+    }
+    }
+/*LAPTOP SCREENS 1600px*/
+@media only screen and (max-width: 1600px){
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Open Sans';
+    font-weight: 900;
+}
+#copyright{
+    margin-top: 10px;
+}
+.mobmenu{
+    display: none;
+}
+nav{
+    padding: 4px;
+    position: sticky;
+    z-index: 1;
+    padding-bottom: 57px;
+    margin-bottom: -40px;
+}
+
+nav ul{
+    white-space: nowrap;
+    margin: 0 auto;
+    text-align: center;
+    color: #0360d8;
+
+}
+
+nav li{
+    font-size: 18px;
+    width: 19%;
+    text-align: center;
+    display: inline-block;
+} 
+
+nav li a{
+    text-decoration: none;
+    color: #0F1E31;
+}
+
+nav li a:hover{
+    text-decoration: underline;
+    color: #3796DA;
+}
+
+.img-responsive {
+    max-height: 72px;
+    max-width: 350px;
+    margin-left: -23px;
+    margin-bottom: -75px;
+}
+.nav1{
+    width: 100%;
+    margin-left: 60px;
+}
+.fut{
+    color: white;
+    width: 100%;
+    margin-top: -23px;
+}
+#log{
+    margin-left: 42px;
+}
+
+.column1 {
+    font-size: 17px;
+    text-align: left ;
+    margin-left:70px;
+    display: flex;
+    color:#3796da;
+    max-width: 100%;
+}
+
+.column2 {
+    font-size: 17px;
+    margin-left: 70px;
+    display: flex;
+    margin-top: 90px;
+}
+
+u{
+    text-decoration-color: #3796DA;
+}
+
+.booking{
+    height: 450px;
+    background: #fbfcfe;
+    color: #0f1e31 ;
+    margin-left: 55px;
+    width: 450px;
+    float: right;
+    font-weight: bolder;
+    font-family: 'Open Sans';
+    margin-right: 57px;
+    margin-top: 55px;
+    border-radius: 4px;
+}
+.book{
+    font-family: 'Open Sans';
+    margin-left: 29px;
+    padding-top: 23px;
+    text-align: center;
+}
+
+input, select, textarea {
+    border-radius: 4px;
+    border: 2px solid rgba(184, 182, 182, 0.666);
+    font-size: 1.25em;
+    font-family: 'Myriad Pro';
+    width: 88%;
+    background-color: #f2f2f2b6;
+    padding-left: 12px;
+    margin-block-start: 12px;
+    margin-inline-start: 5%;
+    padding-top: 6px;
+    padding: 13px;
+}
+
+div.elem-group.inlined input {
+    width: 100%;
+    display: inline-block;
+}
+
+            
+.images1 li{
+    height: 577px;
+    width: 998px;
+    bottom: 473px;
+    position: absolute;
+    margin-left: 123px;
+    }
+
+.service_b{
+    color: #3796DA;
+    padding: 30px;
+    font-size: 60px;
+    position: absolute;
+    line-height: 1.3;
+    word-spacing: -3px;
+    left: 1em;
+    top: 150px;
+    font-weight: bold;
+    text-decoration-color: #3796DA;
+    text-underline-offset: 13px;
+    font-family: 'Open Sans';
+}
+.row{
+    padding-top: 50px;
+}
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  .banner{
+    bottom: 10;
+    position: relative;
+    margin-bottom: -73px;
+}
+
+.banner_org{
+    background-image: url("../assets/models/bkg\ partern\ 4.jpg");
+    background-size: 600px 350px;
+    height: 510px;
+    padding-bottom: 590px;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+
+.banner img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.navbar-header{
+    margin-bottom: 43px;
+}
+
+.button-7 {
+    background-color: #0095ff;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.15385;
+    margin: 0;
+    outline: none;
+    padding: 8px .8em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+
+.button-8 {
+    background-color: #0F1E31;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.15385;
+    margin: 0;
+    outline: none;
+    padding: 8px .8em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+    margin-left: 16em;
+    /* margin-right: 10em; */
+}
+
+.button-7:hover,
+.button-7:focus {
+    background-color: #07c;
+}
+
+.button-7:focus {
+    box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.button-7:active {
+    background-color: #0064bd;
+    box-shadow: none;
+}
+
+.imagesb{
+    flex: right;
+    position: absolute;
+    top: -130px;
+    right: -20em;
+}
+
+.cameraft{
+    position: absolute;
+    display: block;
+    margin: auto;
+    width: 50%;
+    margin-top: 0;
+    top: 120px;
+    right: 40em;
+}
+
+.border-right {
+    border-right: 1px solid black;
+}
+
+#col1 {
+    background: #3796DA;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.csquote{
+    float: right;
+}
+
+.move{
+    margin-top: -16em;
+    list-style-type: none;
+
+}
+
+.guardss{
+    position: absolute;
+    list-style-type: none;
+    text-align: center;
+    display: block;
+    right: 47em;
+    top: 62em;
+}
+
+.fguard{
+    position: absolute;
+    left: 23em;
+    top: 66em;
+}
+
+.bullets{
+    list-style-type: none;
+}
+
+.border-right{
+    border-right: 1px solid black;
+}
+
+.parag1{
+    margin-top: 30px;
+    margin-left: 15em;
+    margin-right: 15em;
+    font-size: 14px;
+    text-align: justify;
+    font-weight: bolder;
+}
+
+.parag2{
+    margin-top: 30px;
+    font-weight: bolder;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+.bluep{
+    color: #3796DA;
+    margin-left: 10em;
+    margin-right: 10em;
+    font-size: 13px;
+}
+
+.blueps{
+    color: #3796DA;
+    margin-left: 12em;
+    margin-right: 12em;
+    font-size: 12px;
+}
+
+.footer{
+    background-image: url("../assets/models/bkg\ partern\ 4.jpg");
+    width: 100%;
+    background-size: 600px 450px;
+    margin-top: 8em;
+    height: 100%;
+}
+
+.fut{
+    color: white;
+    padding-top: 22px;
+}
+
+
+button:hover,
+button:focus {
+    background-color: #3796da;
+}
+button {
+    height: 34px;
+    background: #3796da;
+    border: none;
+    color: white;
+    font-size: 1.25em;
+    font-family: 'Nanum Gothic';
+    border-radius: 4px;
+    cursor: pointer;
+    width: 167px;
+    margin-left: 29px;
+    padding-top: 5px;
+    padding: 4px;
+    border-radius: 7px;
+  }
+ 
+
+ 
+  
+
+  hr {
+    border: 1px dotted #ccc;
+  }
+  
+  .contact{
+    height: 330px;
+    border:#3796DA;
+    color: black;
+    padding-bottom: 445px;
+    margin-top: -263px;
+    margin-left: 1050px;
+    width: 530px;
+    padding: 5px;
+    float: right;
+    border-radius: 8px;
+  }
+
+.elem-group2{
+    margin-left: px;
+}
+
+.map{
+      padding: 0em;
+      margin: 3px;
+      height: 623px;
+  }
+  .container{
+      padding-bottom: 0px;
+  }
+ 
+.h_line{
+    height: 0.5px;
+    background: #0f1e31;
+    width: 69px;
+    margin-left: 21px;
+    padding: 1px;
+    display:inline-block;
+    padding-top: 1px;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+}
+/*LAPTOP SCREENS 1440px*/
+@media only screen and (max-width: 1440px){
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+        font-family: 'Open Sans';
+        font-weight: 900;
+    }
+
+    .images1 li {
+        height: 677px;
+        width: 998px;
+        bottom: 375px;
+        position: absolute;
+        margin-left: 123px;
+    }
+    .mobmenu{
+        display: none;
+    }
+    #copyright{
+        margin-top: 30px;
+    }
+}
+/*LAPTOP SCREENS 1366px*/
+@media only screen and (max-width: 1366px){
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+        font-family: 'Open Sans';
+        font-weight: 900;
+    }
+    
+    nav{
+        padding: 4px;
+        position: sticky;
+        z-index: 1;
+        padding-bottom: 57px;
+        margin-bottom: -40px;
+    }
+    
+    nav ul{
+        white-space: nowrap;
+        margin: 0 auto;
+        text-align: center;
+        color: #0360d8;
+    
+    }
+    
+    nav li{
+        font-size: 18px;
+        width: 19%;
+        text-align: center;
+        display: inline-block;
+    } 
+    
+    nav li a{
+        text-decoration: none;
+        color: #0F1E31;
+    }
+    
+    nav li a:hover{
+        text-decoration: underline;
+        color: #3796DA;
+    }
+    .navbar-header{
+        width: 88%;
+    }
+    
+    .img-responsive {
+        height: auto;
+        width: auto;
+        max-height: 72px;
+        max-width: 220px;
+        object-fit: contain;
+    }
+    
+    .column1 {
+        font-size: 17px;
+        text-align: left ;
+        margin-left:70px;
+        display: flex;
+        color:#3796da;
+        max-width: 100%;
+    }
+    
+    .column2 {
+        font-size: 17px;
+        margin-left: 70px;
+        display: flex;
+        margin-right: -23px;
+        margin-top: 90px;
+    }
+    
+    u{
+        text-decoration-color: #3796DA;
+    }
+    
+    .booking{
+        height: 450px;
+        background: #fbfcfe;
+        color: #0f1e31 ;
+        margin-left: 55px;
+        width: 400px;
+        float: right;
+        font-weight: bolder;
+        font-family: 'Open Sans';
+        margin-right: 31px;
+        margin-top: 55px;
+        border-radius: 4px;
+    }
+    .book{
+        font-family: 'Open Sans';
+        margin-left: 29px;
+        padding-top: 23px;
+        text-align: center;
+    }
+    
+    input, select, textarea {
+        border-radius: 4px;
+        border: 2px solid rgba(184, 182, 182, 0.666);
+        font-size: 1.25em;
+        font-family: 'Myriad Pro';
+        width: 88%;
+        background-color: #f2f2f2b6;
+        padding-left: 12px;
+        margin-block-start: 12px;
+        margin-inline-start: 5%;
+        padding-top: 6px;
+        padding: 13px;
+    }
+    
+    div.elem-group.inlined input {
+        width: 100%;
+        display: inline-block;
+    }
+    
+    .images1 li{
+        position: absolute;
+        height: 577px;
+        width: 898px;
+        right: 243px;
+        top: 156px;
+        margin-left: 123px;
+    }
+    
+    .service_b{
+        color: #3796DA;
+        padding: 30px;
+        font-size: 50px;
+        position: absolute;
+        line-height: 0.9;
+        word-spacing: -3px;
+        left: -0em;
+        top: 150px;
+        font-weight: bold;
+        text-decoration-color: #3796DA;
+        text-underline-offset: 13px;
+        font-family: 'Open Sans';
+    }
+    .row{
+        padding-top: 50px;
+    }
+    @media screen and (max-width: 600px) {
+        .column {
+          width: 100%;
+        }
+      }
+      .banner{
+        bottom: 10;
+        position: relative;
+        margin-bottom: -73px;
+    }
+    
+    .banner_org{
+        background-image: url("../assets/models/bkg\ partern\ 4.jpg");
+        background-size: 600px 350px;
+        height: 510px;
+        padding-bottom: 590px;
+        margin-left: 5px;
+        margin-right: 5px;
+        
+    }
+    
+    .banner img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
+    
+    
+    
+    .button-7 {
+        background-color: #0095ff;
+        border: 1px solid transparent;
+        border-radius: 3px;
+        box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 1.15385;
+        margin: 0;
+        outline: none;
+        padding: 8px .8em;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: baseline;
+        white-space: nowrap;
+    }
+    
+    .button-8 {
+        background-color: #0F1E31;
+        border: 1px solid transparent;
+        border-radius: 3px;
+        box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 1.15385;
+        margin: 0;
+        outline: none;
+        padding: 8px .8em;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: baseline;
+        white-space: nowrap;
+        margin-left: 16em;
+        /* margin-right: 10em; */
+    }
+    
+    .button-7:hover,
+    .button-7:focus {
+        background-color: #07c;
+    }
+    
+    .button-7:focus {
+        box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+    }
+    
+    .button-7:active {
+        background-color: #0064bd;
+        box-shadow: none;
+    }
+    
+    .imagesb{
+        flex: right;
+        position: absolute;
+        top: -130px;
+        right: -20em;
+    }
+    
+    .cameraft{
+        position: absolute;
+        display: block;
+        margin: auto;
+        width: 50%;
+        margin-top: 0;
+        top: 120px;
+        right: 40em;
+    }
+    
+    .border-right {
+        border-right: 1px solid black;
+    }
+    
+    #col1 {
+        background: #3796DA;
+        height: 200px;
+        margin-top: 50px;
+    }
+    
+    .csquote{
+        float: right;
+    }
+    
+    .move{
+        margin-top: -16em;
+        list-style-type: none;
+    
+    }
+    
+    .guardss{
+        position: absolute;
+        list-style-type: none;
+        text-align: center;
+        display: block;
+        right: 47em;
+        top: 62em;
+    }
+    
+    .fguard{
+        position: absolute;
+        left: 23em;
+        top: 66em;
+    }
+    
+    .bullets{
+        list-style-type: none;
+    }
+    
+    .border-right{
+        border-right: 1px solid black;
+    }
+    
+    .parag1{
+        margin-top: 30px;
+        margin-left: 15em;
+        margin-right: 15em;
+        font-size: 14px;
+        text-align: justify;
+        font-weight: bolder;
+    }
+    
+    .parag2{
+        margin-top: 30px;
+        font-weight: bolder;
+        margin-left: 10em;
+        margin-right: 10em;
+    }
+    
+    .bluep{
+        color: #3796DA;
+        margin-left: 10em;
+        margin-right: 10em;
+        font-size: 13px;
+    }
+    
+    .blueps{
+        color: #3796DA;
+        margin-left: 12em;
+        margin-right: 12em;
+        font-size: 12px;
+    }
+    
+    .footer{
+        background-image: url("../assets/models/bkg\ partern\ 4.jpg");
+        width: 100%;
+        background-size: 600px 450px;
+        margin-top: 8em;
+        height: 100%;
+    }
+    
+    .fut{
+        color: white;
+        padding-top: 22px;
+    }
+    
+    
+    button:hover,
+    button:focus {
+        background-color: #3796da;
+    }
+    button {
+        height: 34px;
+        background: #3796da;
+        border: none;
+        color: white;
+        font-size: 1.25em;
+        font-family: 'Nanum Gothic';
+        border-radius: 4px;
+        cursor: pointer;
+        width: 167px;
+        margin-left: 29px;
+        padding-top: 5px;
+        padding: 4px;
+        border-radius: 7px;
+      }
+     
+    
+     
+      
+    
+      hr {
+        border: 1px dotted #ccc;
+      }
+      
+      .contact{
+        height: 330px;
+        border:#3796DA;
+        color: black;
+        padding-bottom: 445px;
+        margin-top: -263px;
+        margin-left: 850px;
+        width: 32%;
+        padding: 5px;
+        float: right;
+        border-radius: 8px;
+      }
+    
+    .elem-group2{
+        margin-left: px;
+    }
+    
+    .map{
+          padding: 0em;
+          margin: 3px;
+          width: 100%;
+      }
+      .container{
+          padding-bottom: 0px;
+      }
+     
+    .h_line{
+        height: 0.5px;
+        background: #0f1e31;
+        width: 69px;
+        margin-left: 21px;
+        padding: 1px;
+        display:inline-block;
+        padding-top: 1px;
+    }
+    
+    * {box-sizing:border-box}
+    
+    /* Slideshow container */
+    .slideshow-container {
+      position: relative;
+      margin: auto;
+    }
+    
+    
+    
+    /* Next & previous buttons */
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      margin-top: -22px;
+      padding: 16px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+    
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+    }
+    
+    /* Caption text */
+    .text {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+    
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+    
+    
+    .active, .dot:hover {
+      background-color: #717171;
+    }
+    
+}
+/*LAPTOP SCREENS 1280px*/
+@media only screen and (max-width: 1280px){
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+        font-family:'Open Sans';
+        font-weight: 900;
+    }
+    
+    nav{
+        padding: 4px;
+        position: sticky;
+        z-index: 1;
+        padding-bottom: 57px;
+        margin-bottom: -40px;
+    }
+    
+    nav ul{
+        white-space: nowrap;
+        margin: 0 auto;
+        text-align: center;
+        color: #0360d8;
+    
+    }
+    
+    nav li{
+        font-size: 18px;
+        width: 19%;
+        text-align: center;
+        display: inline-block;
+    } 
+    
+    nav li a{
+        text-decoration: none;
+        color: #0F1E31;
+    }
+    
+    nav li a:hover{
+        text-decoration: underline;
+        color: #3796DA;
+    }
+    .navbar-header{
+        width: 88%;
+    }
+    
+    .img-responsive {
+        height: auto;
+        width: auto;
+        max-height: 72px;
+        max-width: 220px;
+        object-fit: contain;
+    }
+    
+    .column1 {
+        font-size: 17px;
+        text-align: left ;
+        margin-left:70px;
+        display: flex;
+        color:#3796da;
+        max-width: 100%;
+    }
+    
+    .column2 {
+        font-size: 17px;
+        margin-left: 70px;
+        display: flex;
+        margin-right: -23px;
+        margin-top: 90px;
+    }
+    
+    u{
+        text-decoration-color: #3796DA;
+    }
+    
+    .booking{
+        height: 450px;
+        background: #fbfcfe;
+        color: #0f1e31 ;
+        margin-left: 55px;
+        width: 400px;
+        float: right;
+        font-weight: bolder;
+        font-family: 'Open Sans';
+        margin-right: 31px;
+        margin-top: 55px;
+        border-radius: 4px;
+    }
+    .book{
+        font-family: 'Open Sans';
+        margin-left: 29px;
+        padding-top: 23px;
+        text-align: center;
+    }
+    
+    input, select, textarea {
+        border-radius: 4px;
+        border: 2px solid rgba(184, 182, 182, 0.666);
+        font-size: 1.25em;
+        font-family: 'Myriad Pro';
+        width: 88%;
+        background-color: #f2f2f2b6;
+        padding-left: 12px;
+        margin-block-start: 12px;
+        margin-inline-start: 5%;
+        padding-top: 6px;
+        padding: 13px;
+    }
+    
+    div.elem-group.inlined input {
+        width: 100%;
+        display: inline-block;
+    }
+    
+    .images1 li{
+        position: absolute;
+        height: 577px;
+        width: 898px;
+        right: 243px;
+        top: 155px;
+        margin-left: 123px;
+    }
+    
+    .service_b{
+        color: #3796DA;
+        padding: 30px;
+        font-size: 50px;
+        position: absolute;
+        line-height: 0.9;
+        word-spacing: -3px;
+        left: -0em;
+        top: 150px;
+        font-weight: bold;
+        text-decoration-color: #3796DA;
+        text-underline-offset: 13px;
+        font-family: 'Open Sans';
+    }
+    .row{
+        padding-top: 50px;
+    }
+    @media screen and (max-width: 600px) {
+        .column {
+          width: 100%;
+        }
+      }
+      .banner{
+        bottom: 10;
+        position: relative;
+        margin-bottom: -73px;
+    }
+    
+    .banner_org{
+        background-image: url("../assets/models/bkg\ partern\ 4.jpg");
+        background-size: 600px 350px;
+        height: 510px;
+        padding-bottom: 590px;
+        margin-left: 5px;
+        margin-right: 5px;
+        
+    }
+    
+    .banner img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
+    
+    
+    
+    .button-7 {
+        background-color: #0095ff;
+        border: 1px solid transparent;
+        border-radius: 3px;
+        box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 1.15385;
+        margin: 0;
+        outline: none;
+        padding: 8px .8em;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: baseline;
+        white-space: nowrap;
+    }
+    
+    .button-8 {
+        background-color: #0F1E31;
+        border: 1px solid transparent;
+        border-radius: 3px;
+        box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 1.15385;
+        margin: 0;
+        outline: none;
+        padding: 8px .8em;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: baseline;
+        white-space: nowrap;
+        margin-left: 16em;
+        /* margin-right: 10em; */
+    }
+    
+    .button-7:hover,
+    .button-7:focus {
+        background-color: #07c;
+    }
+    
+    .button-7:focus {
+        box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+    }
+    
+    .button-7:active {
+        background-color: #0064bd;
+        box-shadow: none;
+    }
+    
+    .imagesb{
+        flex: right;
+        position: absolute;
+        top: -130px;
+        right: -20em;
+    }
+    
+    .cameraft{
+        position: absolute;
+        display: block;
+        margin: auto;
+        width: 50%;
+        margin-top: 0;
+        top: 120px;
+        right: 40em;
+    }
+    
+    .border-right {
+        border-right: 1px solid black;
+    }
+    
+    #col1 {
+        background: #3796DA;
+        height: 200px;
+        margin-top: 50px;
+    }
+    
+    .csquote{
+        float: right;
+    }
+    
+    .move{
+        margin-top: -16em;
+        list-style-type: none;
+    
+    }
+    
+    .guardss{
+        position: absolute;
+        list-style-type: none;
+        text-align: center;
+        display: block;
+        right: 47em;
+        top: 62em;
+    }
+    
+    .fguard{
+        position: absolute;
+        left: 23em;
+        top: 66em;
+    }
+    
+    .bullets{
+        list-style-type: none;
+    }
+    
+    .border-right{
+        border-right: 1px solid black;
+    }
+    
+    .parag1{
+        margin-top: 30px;
+        margin-left: 15em;
+        margin-right: 15em;
+        font-size: 14px;
+        text-align: justify;
+        font-weight: bolder;
+    }
+    
+    .parag2{
+        margin-top: 30px;
+        font-weight: bolder;
+        margin-left: 10em;
+        margin-right: 10em;
+    }
+    
+    .bluep{
+        color: #3796DA;
+        margin-left: 10em;
+        margin-right: 10em;
+        font-size: 13px;
+    }
+    
+    .blueps{
+        color: #3796DA;
+        margin-left: 12em;
+        margin-right: 12em;
+        font-size: 12px;
+    }
+    
+    .footer{
+        background-image: url("../assets/models/bkg\ partern\ 4.jpg");
+        width: 100%;
+        background-size: 600px 450px;
+        margin-top: 8em;
+        height: 100%;
+    }
+    
+    .fut{
+        color: white;
+        padding-top: 22px;
+    }
+    
+    
+    button:hover,
+    button:focus {
+        background-color: #3796da;
+    }
+    button {
+        height: 34px;
+        background: #3796da;
+        border: none;
+        color: white;
+        font-size: 1.25em;
+        font-family: 'Nanum Gothic';
+        border-radius: 4px;
+        cursor: pointer;
+        width: 167px;
+        margin-left: 29px;
+        padding-top: 5px;
+        padding: 4px;
+        border-radius: 7px;
+      }
+     
+    
+     
+      
+    
+      hr {
+        border: 1px dotted #ccc;
+      }
+      
+      .contact{
+        height: 330px;
+        border:#3796DA;
+        color: black;
+        padding-bottom: 445px;
+        margin-top: -263px;
+        margin-left: 850px;
+        width: 32%;
+        padding: 5px;
+        float: right;
+        border-radius: 8px;
+      }
+    
+    .elem-group2{
+        margin-left: px;
+    }
+    
+    .map{
+          padding: 0em;
+          margin: 3px;
+          width: 100%;
+      }
+      .container{
+          padding-bottom: 0px;
+      }
+     
+    .h_line{
+        height: 0.5px;
+        background: #0f1e31;
+        width: 69px;
+        margin-left: 21px;
+        padding: 1px;
+        display:inline-block;
+        padding-top: 1px;
+    }
+    
+    * {box-sizing:border-box}
+    
+    /* Slideshow container */
+    .slideshow-container {
+      position: relative;
+      margin: auto;
+    }
+    
+    
+    
+    /* Next & previous buttons */
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      margin-top: -22px;
+      padding: 16px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+    
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+    }
+    
+    /* Caption text */
+    .text {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+    
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+    
+    
+    .active, .dot:hover {
+      background-color: #717171;
+    }
+    
+}
+/*LAPTOP SCREENS 1024px*/
+@media only screen and (max-width: 1024px){
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 900;
+    }
+    
+    nav{
+        padding: 4px;
+        position: sticky;
+        z-index: 1;
+        padding-bottom: 57px;
+        margin-bottom: -40px;
+    }
+    
+    nav ul{
+        white-space: nowrap;
+        margin: 0 auto;
+        text-align: center;
+        color: #0360d8;
+    
+    }
+    
+    nav li{
+        font-size: 18px;
+        width: 19%;
+        text-align: center;
+        display: inline-block;
+    } 
+    
+    nav li a{
+        text-decoration: none;
+        color: #0F1E31;
+    }
+    
+    nav li a:hover{
+        text-decoration: underline;
+        color: #3796DA;
+    }
+    .navbar-header{
+        width: 88%;
+    }
+    
+    .img-responsive {
+        height: auto;
+        width: auto;
+        max-height: 72px;
+        max-width: 220px;
+        object-fit: contain;
+    }
+    
+    .column1 {
+        font-size: 17px;
+        text-align: left ;
+        margin-left:70px;
+        display: flex;
+        color:#3796da;
+        max-width: 100%;
+    }
+    
+    .column2 {
+        font-size: 17px;
+        margin-left: 70px;
+        display: flex;
+        margin-right: -23px;
+        margin-top: 90px;
+    }
+    
+    u{
+        text-decoration-color: #3796DA;
+    }
+    
+    .booking{
+        height: 450px;
+        background: #fbfcfe;
+        color: #0f1e31 ;
+        margin-left: 55px;
+        width: 400px;
+        float: right;
+        font-weight: bolder;
+        font-family: 'Open Sans';
+        margin-right: 31px;
+        margin-top: 55px;
+        border-radius: 4px;
+    }
+    .book{
+        font-family: 'Open Sans';
+        margin-left: 29px;
+        padding-top: 23px;
+        text-align: center;
+    }
+    
+    input, select, textarea {
+        border-radius: 4px;
+        border: 2px solid rgba(184, 182, 182, 0.666);
+        font-size: 1.25em;
+        font-family: 'Myriad Pro';
+        width: 88%;
+        background-color: #f2f2f2b6;
+        padding-left: 12px;
+        margin-block-start: 12px;
+        margin-inline-start: 5%;
+        padding-top: 6px;
+        padding: 13px;
+    }
+    
+    div.elem-group.inlined input {
+        width: 100%;
+        display: inline-block;
+    }
+    
+    .images1 li{
+        position: absolute;
+        height: 577px;
+        width: 898px;
+        right: 243px;
+        top: 155px;
+        margin-left: 123px;
+    }
+    #image{
+        margin-left: 53px;
+    }
+    
+    .service_b{
+        color: #3796DA;
+        padding: 30px;
+        font-size: 50px;
+        position: absolute;
+        line-height: 0.9;
+        word-spacing: -3px;
+        left: -0em;
+        top: 150px;
+        font-weight: bold;
+        text-decoration-color: #3796DA;
+        text-underline-offset: 13px;
+        font-family: 'Open Sans';
+    }
+    .row{
+        padding-top: 50px;
+    }
+    @media screen and (max-width: 600px) {
+        .column {
+          width: 100%;
+        }
+      }
+      .banner{
+        bottom: 10;
+        position: relative;
+        margin-bottom: -73px;
+    }
+    
+    .banner_org{
+        background-image: url("../assets/models/bkg\ partern\ 4.jpg");
+        background-size: 600px 350px;
+        height: 510px;
+        padding-bottom: 590px;
+        margin-left: 5px;
+        margin-right: 5px;
+        
+    }
+    
+    .banner img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .fut{
+        color: white;
+        width: 100%;
+    }
+    #log{
+        margin-left: 122px;
+    }     
+            
+    .button-7 {
+        background-color: #0095ff;
+        border: 1px solid transparent;
+        border-radius: 3px;
+        box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 1.15385;
+        margin: 0;
+        outline: none;
+        padding: 8px .8em;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: baseline;
+        white-space: nowrap;
+    }
+    
+    .button-8 {
+        background-color: #0F1E31;
+        border: 1px solid transparent;
+        border-radius: 3px;
+        box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 1.15385;
+        margin: 0;
+        outline: none;
+        padding: 8px .8em;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: baseline;
+        white-space: nowrap;
+        margin-left: 16em;
+        /* margin-right: 10em; */
+    }
+    
+    .button-7:hover,
+    .button-7:focus {
+        background-color: #07c;
+    }
+    
+    .button-7:focus {
+        box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+    }
+    
+    .button-7:active {
+        background-color: #0064bd;
+        box-shadow: none;
+    }
+    
+    .imagesb{
+        flex: right;
+        position: absolute;
+        top: -130px;
+        right: -20em;
+    }
+    
+    .cameraft{
+        position: absolute;
+        display: block;
+        margin: auto;
+        width: 50%;
+        margin-top: 0;
+        top: 120px;
+        right: 40em;
+    }
+    
+    .border-right {
+        border-right: 1px solid black;
+    }
+    
+    #col1 {
+        background: #3796DA;
+        height: 200px;
+        margin-top: 50px;
+    }
+    
+    .csquote{
+        float: right;
+    }
+    
+    .move{
+        margin-top: -16em;
+        list-style-type: none;
+    
+    }
+    
+    .guardss{
+        position: absolute;
+        list-style-type: none;
+        text-align: center;
+        display: block;
+        right: 47em;
+        top: 62em;
+    }
+    
+    .fguard{
+        position: absolute;
+        left: 23em;
+        top: 66em;
+    }
+    
+    .bullets{
+        list-style-type: none;
+    }
+    
+    .border-right{
+        border-right: 1px solid black;
+    }
+    
+    .parag1{
+        margin-top: 30px;
+        margin-left: 15em;
+        margin-right: 15em;
+        font-size: 14px;
+        text-align: justify;
+        font-weight: bolder;
+    }
+    
+    .parag2{
+        margin-top: 30px;
+        font-weight: bolder;
+        margin-left: 10em;
+        margin-right: 10em;
+    }
+    
+    .bluep{
+        color: #3796DA;
+        margin-left: 10em;
+        margin-right: 10em;
+        font-size: 13px;
+    }
+    
+    .blueps{
+        color: #3796DA;
+        margin-left: 12em;
+        margin-right: 12em;
+        font-size: 12px;
+    }
+    
+    .footer{
+        background-image: url("../assets/models/bkg\ partern\ 4.jpg");
+        width: 100%;
+        background-size: 600px 450px;
+        margin-top: 8em;
+        height: 100%;
+    }
+    
+    .fut{
+        color: white;
+        padding-top: 22px;
+    }
+    
+    
+    button:hover,
+    button:focus {
+        background-color: #3796da;
+    }
+    button {
+        height: 34px;
+        background: #3796da;
+        border: none;
+        color: white;
+        font-size: 1.25em;
+        font-family: 'Nanum Gothic';
+        border-radius: 4px;
+        cursor: pointer;
+        width: 167px;
+        margin-left: 29px;
+        padding-top: 5px;
+        padding: 4px;
+        border-radius: 7px;
+      }
+     
+    
+     
+      
+    
+      hr {
+        border: 1px dotted #ccc;
+      }
+      
+      .contact{
+        height: 330px;
+        border:#3796DA;
+        color: black;
+        padding-bottom: 445px;
+        margin-top: -263px;
+        margin-left: 700px;
+        width: 31%;
+        border-radius: 8px;
+      }
+    
+    .elem-group2{
+        margin-left: px;
+    }
+    
+    .map{
+          padding: 0em;
+          margin: 3px;
+          width: 100%;
+      }
+      .container{
+          padding-bottom: 0px;
+      }
+     
+    .h_line{
+        height: 0.5px;
+        background: #0f1e31;
+        width: 69px;
+        margin-left: 21px;
+        padding: 1px;
+        display:inline-block;
+        padding-top: 1px;
+    }
+    
+    * {box-sizing:border-box}
+    
+    /* Slideshow container */
+    .slideshow-container {
+      position: relative;
+      margin: auto;
+    }
+    
+    
+    
+    /* Next & previous buttons */
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      margin-top: -22px;
+      padding: 16px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+    
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+    }
+    
+    /* Caption text */
+    .text {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+    
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+    
+    
+    .active, .dot:hover {
+      background-color: #717171;
+    }
+    
+}
+/*LAPTOP SCREENS 768px*/
+@media only screen and (max-width: 768px){
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+        font-family: 'Open Sans';
+        font-weight: 900;
+    }
+    
+    nav{
+        padding: 4px;
+        position: sticky;
+        z-index: 1;
+        padding-bottom: 57px;
+        margin-bottom: -40px;
+    }
+    
+    nav ul{
+        white-space: nowrap;
+        margin: 0 auto;
+        text-align: center;
+        color: #0360d8;
+    
+    }
+    
+    nav li{
+        font-size: 18px;
+        width: 19%;
+        text-align: center;
+        display: inline-block;
+    } 
+    
+    nav li a{
+        text-decoration: none;
+        color: #0F1E31;
+    }
+    
+    nav li a:hover{
+        text-decoration: underline;
+        color: #3796DA;
+    }
+    .navbar-header{
+        width: 88%;
+    }
+    
+    .img-responsive {
+        height: auto;
+        width: auto;
+        max-height: 72px;
+        max-width: 120px;
+        object-fit: contain;
+    }
+    .nav1{
+        width: 100%;
+        margin-right: 222px;
+    }
+    .column1 {
+        font-size: 17px;
+        text-align: left ;
+        margin-left:70px;
+        display: flex;
+        color:#3796da;
+        max-width: 100%;
+    }
+    
+    .column2 {
+        font-size: 17px;
+        margin-left: 70px;
+        display: flex;
+        margin-right: -23px;
+        margin-top: 90px;
+    }
+    
+    u{
+        text-decoration-color: #3796DA;
+    }
+    
+    .booking{
+        height: 450px;
+        background: #fbfcfe;
+        color: #0f1e31 ;
+        margin-left: 55px;
+        width: 400px;
+        float: right;
+        font-weight: bolder;
+        font-family: 'Open Sans';
+        margin-right: 31px;
+        margin-top: 55px;
+        border-radius: 4px;
+    }
+    .book{
+        font-family: 'Open Sans';
+        margin-left: 29px;
+        padding-top: 23px;
+        text-align: center;
+    }
+    
+    input, select, textarea {
+        border-radius: 4px;
+        border: 2px solid rgba(184, 182, 182, 0.666);
+        font-size: 1.25em;
+        font-family: 'Myriad Pro';
+        width: 88%;
+        background-color: #f2f2f2b6;
+        padding-left: 12px;
+        margin-block-start: 12px;
+        margin-inline-start: 5%;
+        padding-top: 6px;
+        padding: 13px;
+    }
+    
+    div.elem-group.inlined input {
+        width: 100%;
+        display: inline-block;
+    }
+    
+    .images1 li{
+        display: none;
+    }
+    .ticon, .ficon{
+        display: none;
+    }
+    
+    .service_b{
+        color: #3796DA;
+        padding: 30px;
+        font-size: 50px;
+        position: absolute;
+        line-height: 0.9;
+        word-spacing: -3px;
+        left: -0em;
+        top: 150px;
+        font-weight: bold;
+        text-decoration-color: #3796DA;
+        text-underline-offset: 13px;
+        font-family: 'Open Sans';
+    }
+    .row{
+        padding-top: 50px;
+    }
+    @media screen and (max-width: 600px) {
+        .column {
+          width: 100%;
+        }
+      }
+      .banner{
+        bottom: 10;
+        position: relative;
+        margin-bottom: -73px;
+    }
+    
+    .banner_org{
+        background-image: url("../assets/models/bkg\ partern\ 4.jpg");
+        background-size: 600px 350px;
+        height: 510px;
+        padding-bottom: 590px;
+        margin-left: 5px;
+        margin-right: 5px;
+        
+    }
+    
+    .banner img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
+    .contact{display: none;}
+    
+    
+    .button-7 {
+        background-color: #0095ff;
+        border: 1px solid transparent;
+        border-radius: 3px;
+        box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 1.15385;
+        margin: 0;
+        outline: none;
+        padding: 8px .8em;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: baseline;
+        white-space: nowrap;
+    }
+    
+    .button-8 {
+        background-color: #0F1E31;
+        border: 1px solid transparent;
+        border-radius: 3px;
+        box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 1.15385;
+        margin: 0;
+        outline: none;
+        padding: 8px .8em;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: baseline;
+        white-space: nowrap;
+        margin-left: 16em;
+        /* margin-right: 10em; */
+    }
+    
+    .button-7:hover,
+    .button-7:focus {
+        background-color: #07c;
+    }
+    
+    .button-7:focus {
+        box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+    }
+    
+    .button-7:active {
+        background-color: #0064bd;
+        box-shadow: none;
+    }
+    
+    .imagesb{
+        flex: right;
+        position: absolute;
+        top: -130px;
+        right: -20em;
+    }
+    
+    .cameraft{
+        position: absolute;
+        display: block;
+        margin: auto;
+        width: 50%;
+        margin-top: 0;
+        top: 120px;
+        right: 40em;
+    }
+    
+    .border-right {
+        border-right: 1px solid black;
+    }
+    
+    #col1 {
+        background: #3796DA;
+        height: 200px;
+        margin-top: 50px;
+    }
+    
+    .csquote{
+        float: right;
+    }
+    
+    .move{
+        margin-top: -16em;
+        list-style-type: none;
+    
+    }
+    
+    .guardss{
+        position: absolute;
+        list-style-type: none;
+        text-align: center;
+        display: block;
+        right: 47em;
+        top: 62em;
+    }
+    
+    .fguard{
+        position: absolute;
+        left: 23em;
+        top: 66em;
+    }
+    
+    .bullets{
+        list-style-type: none;
+    }
+    
+    .border-right{
+        border-right: 1px solid black;
+    }
+    
+    .parag1{
+        margin-top: 30px;
+        margin-left: 15em;
+        margin-right: 15em;
+        font-size: 14px;
+        text-align: justify;
+        font-weight: bolder;
+    }
+    
+    .parag2{
+        margin-top: 30px;
+        font-weight: bolder;
+        margin-left: 10em;
+        margin-right: 10em;
+    }
+    
+    .bluep{
+        color: #3796DA;
+        margin-left: 10em;
+        margin-right: 10em;
+        font-size: 13px;
+    }
+    
+    .blueps{
+        color: #3796DA;
+        margin-left: 12em;
+        margin-right: 12em;
+        font-size: 12px;
+    }
+    
+    .footer{
+        background-image: url("../assets/models/bkg\ partern\ 4.jpg");
+        width: 100%;
+        background-size: 600px 450px;
+        margin-top: 8em;
+        height: 100%;
+    }
+    
+    .fut{
+        color: white;
+        padding-top: 42px;
+    }
+    
+    
+    button:hover,
+    button:focus {
+        background-color: #3796da;
+    }
+    button {
+        height: 34px;
+        background: #3796da;
+        border: none;
+        color: white;
+        font-size: 1.25em;
+        font-family: 'Nanum Gothic';
+        border-radius: 4px;
+        cursor: pointer;
+        width: 167px;
+        margin-left: 29px;
+        padding-top: 5px;
+        padding: 4px;
+        border-radius: 7px;
+      }
+     
+    
+     
+      
+    
+      hr {
+        border: 1px dotted #ccc;
+      }
+      
+      .contact{
+      display: none;
+      }
+    
+    .elem-group2{
+        margin-left: px;
+    }
+    
+    .map{
+          padding: 0em;
+          margin: 3px;
+          width: 100%;
+      }
+      .container{
+          padding-bottom: 0px;
+      }
+     
+    .h_line{
+        height: 0.5px;
+        background: #0f1e31;
+        width: 69px;
+        margin-left: 21px;
+        padding: 1px;
+        display:inline-block;
+        padding-top: 1px;
+    }
+    
+    * {box-sizing:border-box}
+    
+    /* Slideshow container */
+    .slideshow-container {
+      position: relative;
+      margin: auto;
+    }
+    
+    
+    
+    /* Next & previous buttons */
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      margin-top: -22px;
+      padding: 16px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+    
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+    }
+    
+    /* Caption text */
+    .text {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+    
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+    
+    
+    .active, .dot:hover {
+      background-color: #717171;
+    }
+    
+}
+/*MOBILE SCREEN 414px*/
+@media only screen and (max-width: 414px){
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+        font-family: ;
+        font-weight: 900;
+    }
+    
+    nav{
+        padding: 4px;
+        position: sticky;
+        z-index: 1;
+        padding-bottom: 57px;
+        margin-bottom: -40px;
+    }
+    
+    nav ul{
+        white-space: nowrap;
+        margin: 0 auto;
+        text-align: center;
+        color: #0360d8;
+    
+    }
+    
+    nav li{
+        font-size: 18px;
+        width: 19%;
+        text-align: center;
+        display: inline-block;
+    } 
+    
+    nav li a{
+        text-decoration: none;
+        color: #0F1E31;
+    }
+    #log{
+        display: none;
+    }
+    
+    nav li a:hover{
+        text-decoration: underline;
+        color: #3796DA;
+    }
+    .navbar-header{
+        width: 88%;
+    }
+    .nav1{
+        display: none;
+    }
+    .navbar-brand{
+        margin-top: -14px;
+    }
+    .img-responsive {
+        height: auto;
+        width: auto;
+        max-height: 72px;
+        max-width: 220px;
+        object-fit: contain;
+        margin-bottom: 43px;
+    }
+    .banner_org{
+        margin-top: 80px;
+    }
+    .mobmenu{
+        margin-bottom: 20px;
+        margin-top: 12px;
+    }
+    
+    .column1 {
+        font-size: 17px;
+        text-align: left ;
+        margin-left:70px;
+        display: flex;
+        color:#3796da;
+        max-width: 100%;
+    }
+    
+    .column3 {
+        font-size: 17px;
+        margin-left: 128px;
+        text-align: center;
+        margin-top: 0px;
+        margin-top: -130px;
+
+    }
+    .column4 {
+        font-size: 17px;
+        margin-left: 108px;
+        text-align: center;
+        margin-top: 90px;
+    }
+    .column3, .column4{
+        margin-right: 20px;
+        margin-left: 20px;
+        width: 100%;
+        letter-spacing: 1px;
+        margin-top: -80px;
+    }
+    
+    u{
+        text-decoration-color: #3796DA;
+    }
+    
+    .booking{
+        height: 470px;
+        background: #fbfcfe;
+        color: #0f1e31 ;
+        margin-left: 55px;
+        width: 380px;
+        float: right;
+        text-align: center;
+        font-weight: bolder;
+        font-family: 'Open Sans';
+        margin-right: 11px;
+        margin-top: 105px;
+        border-radius: 4px;
+    }
+    .book{
+        font-family: 'Open Sans';
+        margin-left: 29px;
+        padding-top: 23px;
+        text-align: center;
+    }
+    
+    input, select, textarea {
+        border-radius: 4px;
+        border: 2px solid rgba(184, 182, 182, 0.666);
+        font-size: 1.25em;
+        font-family: 'Myriad Pro';
+        width: 88%;
+        background-color: #f2f2f2b6;
+        padding-left: 12px;
+        margin-block-start: 12px;
+        margin-inline-start: 5%;
+        padding-top: 6px;
+        padding: 13px;
+    }
+    
+    div.elem-group.inlined input {
+        width: 100%;
+        display: inline-block;
+    }
+    
+    .images1 li{
+        position: absolute;
+        height: 577px;
+        width: 898px;
+        right: 143px;
+        top: 105px;
+        margin-left: 123px;
+    }
+    
+    .service_b{
+        color: #3796DA;
+        padding: 30px;
+        font-size: 45px;
+        position: absolute;
+        line-height: 0.9;
+        word-spacing: -3px;
+        left: 1.2em;
+        text-align: center;
+        top: -27px;
+        font-weight: bold;
+        text-decoration-color: #3796DA;
+        text-underline-offset: 13px;
+        font-family: 'Open Sans';
+    }
+    .row{
+        padding-top: 130px;
+    }
+    .banner{
+        bottom: 10;
+        position: relative;
+        margin-bottom: -73px;
+    }
+    
+    .banner_org{
+        background-image: url("../assets/models/bkg\ partern\ 4.jpg");
+        background-size: 600px 350px;
+        height: 510px;
+        padding-bottom: 590px;
+        margin-left: 5px;
+        margin-right: 5px;
+        
+    }
+    
+    .banner img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
+    
+    
+    
+    .button-7 {
+        background-color: #0095ff;
+        border: 1px solid transparent;
+        border-radius: 3px;
+        box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 1.15385;
+        margin: 0;
+        outline: none;
+        padding: 8px .8em;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: baseline;
+        white-space: nowrap;
+    }
+    
+    .button-8 {
+        background-color: #0F1E31;
+        border: 1px solid transparent;
+        border-radius: 3px;
+        box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 1.15385;
+        margin: 0;
+        outline: none;
+        padding: 8px .8em;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: baseline;
+        white-space: nowrap;
+        margin-left: 16em;
+        /* margin-right: 10em; */
+    }
+    
+    .button-7:hover,
+    .button-7:focus {
+        background-color: #07c;
+    }
+    
+    .button-7:focus {
+        box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+    }
+    
+    .button-7:active {
+        background-color: #0064bd;
+        box-shadow: none;
+    }
+    
+    .imagesb{
+        flex: right;
+        position: absolute;
+        top: -130px;
+        right: -20em;
+    }
+    
+    .cameraft{
+        position: absolute;
+        display: block;
+        margin: auto;
+        width: 50%;
+        margin-top: 0;
+        top: 120px;
+        right: 40em;
+    }
+    
+    .border-right {
+        border-right: 1px solid black;
+    }
+    
+    #col1 {
+        background: #3796DA;
+        height: 200px;
+        margin-top: 50px;
+    }
+    
+    .csquote{
+        float: right;
+    }
+    
+    .move{
+        margin-top: -16em;
+        list-style-type: none;
+    
+    }
+    
+    .guardss{
+        position: absolute;
+        list-style-type: none;
+        text-align: center;
+        display: block;
+        right: 47em;
+        top: 62em;
+    }
+    
+    .fguard{
+        position: absolute;
+        left: 23em;
+        top: 66em;
+    }
+    
+    .bullets{
+        list-style-type: none;
+    }
+    
+    .border-right{
+        border-right: 1px solid black;
+    }
+    
+    .parag1{
+        margin-top: 30px;
+        margin-left: 15em;
+        margin-right: 15em;
+        font-size: 14px;
+        text-align: justify;
+        font-weight: bolder;
+    }
+    
+    .parag2{
+        margin-top: 30px;
+        font-weight: bolder;
+        margin-left: 10em;
+        margin-right: 10em;
+    }
+    
+    .bluep{
+        color: #3796DA;
+        margin-left: 10em;
+        margin-right: 10em;
+        font-size: 13px;
+    }
+    
+    .blueps{
+        color: #3796DA;
+        margin-left: 12em;
+        margin-right: 12em;
+        font-size: 12px;
+    }
+    
+    .footer{
+        background-image: url("../assets/models/bkg\ partern\ 4.jpg");
+        width: 100%;
+        background-size: 600px 450px;
+        margin-top: 5em;
+        height: 100%;
+        margin-left: 5px;
+    }
+    
+    .fut{
+        color: white;
+        padding-top: 22px;
+    }
+    
+    
+    button:hover,
+    button:focus {
+        background-color: #3796da;
+    }
+    button {
+        height: 34px;
+        background: #3796da;
+        border: none;
+        color: white;
+        font-size: 1.25em;
+        font-family: 'Nanum Gothic';
+        border-radius: 4px;
+        cursor: pointer;
+        width: 167px;
+        margin-left: 29px;
+        padding-top: 5px;
+        padding: 4px;
+        border-radius: 7px;
+      }
+     
+    
+     
+      
+    
+      hr {
+        border: 1px dotted #ccc;
+      }
+      
+      .contact{
+        position: absolute;
+        height: 330px;
+        border:#3796DA;
+        color: black;
+        padding-bottom: 445px;
+        margin-top: 493px;
+        margin-left: 16px;
+        text-align: center;
+        width: 100%;
+        padding: 5px;
+        float: right;
+        border-radius: 8px;
+      }
+    
+    .elem-group2{
+        margin-left: px;
+    }
+    
+    .map{
+        margin-top: 23px;
+         
+      }
+    .container{
+          padding-bottom: 0px;
+      }
+     
+    .h_line{
+        height: 0.5px;
+        background: #0f1e31;
+        width: 69px;
+        margin-left: 21px;
+        padding: 1px;
+        display:inline-block;
+        padding-top: 1px;
+    }
+    
+    * {box-sizing:border-box}
+    
+    /* Slideshow container */
+    .slideshow-container {
+      position: relative;
+      margin: auto;
+    }
+    
+    
+    
+    /* Next & previous buttons */
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      margin-top: -22px;
+      padding: 16px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+    
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+    }
+    
+    /* Caption text */
+    .text {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+    
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+    
+    
+    .active, .dot:hover {
+      background-color: #717171;
+    }
+    
+}
+@media only screen and (max-width: 360px){
+    .booking{
+        width: 330px;
+        text-align: center;
+    }
+    .map{
+        width: 100%;
+        margin-left: 7px;
+    }
+}

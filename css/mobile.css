@@ -1,0 +1,305 @@
+/* START OF HAMBURGER MENU CSS */
+@media  screen and (max-width: 375px) {
+  
+  .mobmenu ul li{
+    list-style:none;
+  }
+  .imagesb{
+    margin-right: -20px;
+  }
+}
+
+@media only screen  and (max-device-width: 414px){
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+  
+  body {
+    background-color: #ffffff;
+    overflow-x: hidden;
+  }
+  .navbar-brand2{
+    display: none;
+  }
+  .mobmenu a {
+    text-decoration: none;
+  }
+  .img-responsive {
+      max-height: 72px;
+      max-width: 150px;
+      margin-left: 0;
+      margin-bottom: -55px;
+  }
+  .mobmenu {
+    padding: 0 10px;
+    background-color: #ffffff;
+    height: 0px;
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* .mobile1 {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .mobile1 a {
+    color: rgb(0, 0, 0);
+  }
+  
+  .mobile1 li {
+    padding: 5px;
+    margin-left: 10px;
+  }
+   */
+  /* ul li:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+  } */
+  
+  #hamburger-icon {
+    margin: auto 0;
+    display: none;
+    cursor: pointer;
+  }
+  
+  #hamburger-icon div {
+    width: 35px;
+    height: 3px;
+    background-color: #0f1e31;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .open .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
+  }
+  
+  .open .bar2 {
+    opacity: 0;
+  }
+  
+  .open .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -8px);
+    transform: rotate(45deg) translate(-6px, -8px);
+  }
+  
+  .open .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .mobile-menu {
+    display: none;
+    position: absolute;
+    top: 83px;
+    left: 70px;
+    height: calc(100vh - 50px);
+    width: 90%;
+    font-family: "Poppins", sans-serif;
+    
+  }
+  .mobmenu ul li{
+      list-style:none;
+  }
+  .mobile-menu{
+      /* background-image: url("../assets/models/bkg\ partern\ 4.jpg");
+      background-size: 600px 350px; */
+      height: 118px;
+      width: 152px;
+      margin-left: 160px;
+      max-width: 100%;
+      opacity: 1;
+      
+  }
+  .mobile-menu li {
+    margin-bottom: 10px;
+    z-index: 1;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin-left: 5px;
+    position: relative;
+    border-radius: 5px;
+    background-color: #0095ff;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 414px) {
+    header nav {
+      display: none;
+    }
+  
+  
+    #hamburger-icon {
+        
+      display: block;
+      margin-right: 12px;
+      margin-top: 12px;
+    }
+  }
+  
+  a:link {
+      color: rgb(255, 255, 255);
+    }
+    
+  }
+@media only screen  and (max-device-width: 360px){
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+      
+      body {
+        background-color: #ffffff;
+        
+      }
+      .navbar-brand2{
+        display: none;
+      }
+      .mobmenu a {
+        text-decoration: none;
+      }
+      
+      .mobmenu {
+        padding: 0 10px;
+        background-color: #221d1d;
+        height: 0px;
+        margin-top: 12px;
+        display: flex;
+        justify-content: space-between;
+       
+      }
+     
+      .img-responsive {
+          max-height: 72px;
+          max-width: 150px;
+          margin-left: 0;
+          margin-bottom: -55px;
+      }
+
+      .mobile1 {
+        list-style: none;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }
+      
+      .mobile1 a {
+        color: rgb(0, 0, 0);
+      }
+      
+      .mobile1 li {
+        padding: 5px;
+        margin-left: 10px;
+      }
+      
+      /* ul li:hover {
+        transform: scale(1.1);
+        transition: 0.3s;
+      } */
+      
+      #hamburger-icon {
+        margin: auto 0;
+        display: none;
+        cursor: pointer;
+      }
+      
+      #hamburger-icon div {
+        width: 35px;
+        height: 3px;
+        background-color: #0f1e31;
+        margin: 6px 0;
+        transition: 0.4s;
+      }
+      
+      .open .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+        transform: rotate(-45deg) translate(-6px, 6px);
+      }
+      
+      .open .bar2 {
+        opacity: 0;
+      }
+      
+      .open .bar3 {
+        -webkit-transform: rotate(45deg) translate(-6px, -8px);
+        transform: rotate(45deg) translate(-6px, -8px);
+      }
+      
+      .open .mobile-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+      }
+      
+      .mobile-menu {
+        display: none;
+        position: absolute;
+        top: 83px;
+        left: 37px;
+        height: calc(100vh - 50px);
+        width: 90%;
+        font-family: "Poppins", sans-serif;
+        
+      }
+      .mobmenu ul li{
+        list-style:none;
+    }
+      .mobile-menu{
+          /* background-image: url("../assets/models/bkg\ partern\ 4.jpg");
+          background-size: 600px 350px; */
+          height: 118px;
+          width: 52px;
+          margin-left: 210px;
+          max-width: 100%;
+          opacity: 1;
+          
+      }
+      .mobile-menu li {
+        margin-bottom: 10px;
+        z-index: 1;
+        color: white;
+        width: 80px;
+        height: 100px;
+        margin-left: 15px;
+        position: relative;
+        border-radius: 5px;
+        background-color: #0095ff;
+        animation-name: example;
+        animation-duration: 4s;
+        animation-iteration-count: 3;
+        text-align: center;
+      }
+      
+      @media only screen and (max-width: 414px) {
+        header nav {
+          display: none;
+        }
+      
+      
+        #hamburger-icon {
+            
+          display: block;
+          margin-right: 12px;
+          margin-top: 12px;
+        }
+      }
+      a:link {
+        color: rgb(255, 255, 255);
+      }
+      @media only screen and (max-width: 414px) {
+      a:link {
+          color: rgb(255, 255, 255);
+        }
+      }
+        
+  }
+/* END OF HAMBURGER MENU CSS */
