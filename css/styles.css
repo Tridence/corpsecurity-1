@@ -1001,6 +1001,18 @@ button {
         margin-left: 60px;
         margin-top: -140px;
     }
+    .contact{
+        height: 330px;
+        border:#3796DA;
+        color: black;
+        padding-bottom: 445px;
+        margin-top: -320px;
+        margin-left: 850px;
+        width: 32%;
+        padding: 5px;
+        float: right;
+        border-radius: 8px;
+      }
 }
 /*LAPTOP SCREENS 1366px*/
 @media only screen and (max-width: 1366px){
@@ -1043,8 +1055,12 @@ button {
         text-decoration: underline;
         color: #3796DA;
     }
-    .navbar-header{
-        width: 88%;
+       .navbar-header{
+        display: inline-block;
+        height: 100%;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 80px;
     }
     #image{
         position: absolute;
@@ -1372,12 +1388,7 @@ button {
         padding: 4px;
         border-radius: 7px;
       }
-     
-    
-     
-      
-    
-      hr {
+        hr {
         border: 1px dotted #ccc;
       }
       
@@ -1839,11 +1850,7 @@ button {
         padding: 4px;
         border-radius: 7px;
       }
-     
-    
-     
-      
-    
+        
       hr {
         border: 1px dotted #ccc;
       }
@@ -1940,7 +1947,6 @@ button {
       position: absolute;
       top: 0;
     }
-    
     
     .active, .dot:hover {
       background-color: #717171;
