@@ -2657,7 +2657,7 @@ u{
     }
 
 }/*MOBILE SCREENS 414px*/
-@media only screen and (max-width: 414px){
+@media (min-width: 359px) and (max-width: 414px){
     html{
         overflow-x: hidden;
         width: 100%;
@@ -3286,7 +3286,7 @@ u{
 
 }
 /*MOBILE SCREENS 360px*/
-@media only screen and (max-width: 360px){
+@media (min-width: 320px) and (max-width: 360px){
     .body{
         max-width: 100%;
         overflow-x: hidden;
