@@ -1065,7 +1065,7 @@ button {
     #image{
         position: absolute;
         margin-left: 20px;
-        margin-top: 0px;
+        margin-top: 12px;
     }
     .img-responsive {
         height: auto;
@@ -1146,7 +1146,7 @@ button {
     
     .images1 li{
         position: absolute;
-        height: 577px;
+        height: 677px;
         width: 898px;
         right: 243px;
         top: 156px;
@@ -1359,13 +1359,14 @@ button {
         background-image: url("../assets/models/bkg\ partern\ 4.jpg");
         width: 100%;
         background-size: 600px 450px;
-        margin-top: 8em;
+        margin-top: 4em;
         height: 100%;
+        margin-bottom: -500px;
     }
     
     .fut{
         color: white;
-        padding-top: 22px;
+        padding-top: 2;
     }
     
     
