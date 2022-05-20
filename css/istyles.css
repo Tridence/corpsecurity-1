@@ -1,3 +1,90 @@
+/*LAPTOP SCREENS 1366px*/
+    html, .body {
+        overflow-x: hidden;
+        max-width: 100%;
+        margin: 0;
+        font-family: 'Open Sans';
+        padding: 0;
+    }
+ 
+    .navbar-header2{
+        margin-top: -10px;
+    }
+    .banner_org{
+     background-image: url("../assets/models/bkg\ partern\ 4.jpg");
+     background-size: 600px 350px;
+     height: 510px;
+     max-width: 100%;
+     margin-right: 5px;
+     }
+    .navbar-brand img{
+        margin-top: -2px;
+        width: 100%;
+        height: 100%;
+    }
+    .consultant{
+        margin-left: -130px;
+    }
+    .professional{
+        margin-left: -60px;
+        width: 100%;
+    }
+    .protection{
+        width: 50%;
+    }
+    .column {
+     font-family: "Myriad Pro";
+     font-size: 17px;
+     text-align: justify;
+     line-height:40px;
+     column-gap: 30px;
+     columns: 250px 3;
+     margin-left: 120px;
+     column-rule-width: 2px;
+     column-rule-color: #3796da;
+     width: 88%;
+     column-rule-style: dotted;
+ }
+    /* .links{
+     margin-top: 60px;
+     } */
+     .img-col2{
+         margin-left: 450px;
+     }
+     .img-col3{
+         margin-left: 850px;
+     }
+     h1:before{
+         content: "";
+         position: absolute;
+         width: 20%;
+         height: 10px;
+         bottom: 0;
+         left: 1%;
+         border-bottom: 4px solid #3796da ;
+     }
+     .fguard{
+         margin-left: 43px;
+         margin-top: 220px;
+         height: 453px;
+         width: 358px;
+     }
+     .guardss{
+         margin-top: 152px;
+         margin-right: -32px;
+     } 
+     .cameraft{
+         margin-right: 12px;
+     }
+     .img-responsive {
+     max-height: 72px;
+     max-width: 150px;
+     margin-left: -23px;
+     margin-bottom: -75px;
+     }
+     .about_b{
+         left: 273px;
+     }
 @media screen  and (min-device-width: 1921px){
     html, body{
         display: none;
@@ -1272,95 +1359,6 @@ u{
     .border-right {
         border-right: 1px solid black;
 
-    }
-}
-/*LAPTOP SCREENS 1366px*/
-@media only screen and (max-width: 1366px){
-   html, .body {
-       overflow-x: hidden;
-       max-width: 100%;
-       margin: 0;
-       font-family: 'Open Sans';
-       padding: 0;
-   }
-
-   .navbar-header2{
-       margin-top: -10px;
-   }
-   .banner_org{
-    background-image: url("../assets/models/bkg\ partern\ 4.jpg");
-    background-size: 600px 350px;
-    height: 510px;
-    max-width: 100%;
-    margin-right: 5px;
-    }
-   .navbar-brand img{
-       margin-top: -2px;
-       width: 100%;
-       height: 100%;
-   }
-   .consultant{
-       margin-left: -130px;
-   }
-   .professional{
-       margin-left: -60px;
-       width: 100%;
-   }
-   .protection{
-       width: 50%;
-   }
-   .column {
-    font-family: "Myriad Pro";
-    font-size: 17px;
-    text-align: justify;
-    line-height:40px;
-    column-gap: 30px;
-    columns: 250px 3;
-    margin-left: 120px;
-    column-rule-width: 2px;
-    column-rule-color: #3796da;
-    width: 88%;
-    column-rule-style: dotted;
-}
-   /* .links{
-    margin-top: 60px;
-    } */
-    .img-col2{
-        margin-left: 450px;
-    }
-    .img-col3{
-        margin-left: 850px;
-    }
-    h1:before{
-        content: "";
-        position: absolute;
-        width: 20%;
-        height: 10px;
-        bottom: 0;
-        left: 1%;
-        border-bottom: 4px solid #3796da ;
-    }
-    .fguard{
-        margin-left: 43px;
-        margin-top: 220px;
-        height: 453px;
-        width: 358px;
-    }
-    .guardss{
-        margin-top: 152px;
-        margin-right: -32px;
-    } 
-    .cameraft{
-        margin-right: 12px;
-    }
-    .img-responsive {
-    max-height: 72px;
-    max-width: 150px;
-    margin-left: -23px;
-    margin-bottom: -75px;
-    }
-    .about_b{
-        left: 273px;
     }
 }
 @media only screen and (max-width: 1360px){
