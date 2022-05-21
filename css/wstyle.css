@@ -720,6 +720,9 @@ hr {
         display: none;
     }
 }
+
+
+/*LAPTOP MEDIUM SCREENS 1920px ""if device width is greater than or equals to 1920px, then apply the CSS defined in this block.""*/
 @media screen  and (max-device-width: 1920px) and (min-device-width: 1601px){
     html, body {
         overflow-x: hidden;
@@ -731,7 +734,9 @@ hr {
         font-family: 'Open Sans';
         font-weight: 900;
     }
-    
+    .mobmenu{
+        display: none;
+    }
     h1{
         font-family: Open Sans;
             color: #0f1e31 ;
@@ -778,9 +783,6 @@ hr {
     nav li a:hover{
         text-decoration: underline;
         color: #3796DA;
-    }
-    .mobmenu{
-        display: none;
     }
     .img-responsive {
         max-height: 90px;
@@ -1369,8 +1371,10 @@ hr {
             }
              
     }
-    }
-/*LAPTOP MEDIUM SCREENS 1440px "if device width is greater than or equals to 1440px, then apply the CSS defined in this block."*/
+}
+
+
+/*LAPTOP MEDIUM SCREENS 1440px "if device width is greater than or equals to 1600px, then apply the CSS defined in this block."*/
 @media screen  and (max-device-width: 1600px) and (min-device-width: 1441px){
     html, body {
         max-width: 100%;
@@ -2064,8 +2068,14 @@ hr {
          }
     }
     }
+
+
+    /*LAPTOP MEDIUM SCREENS 1440px ""if device width is greater than or equals to 1440px, then apply the CSS defined in this block.""*/
 @media only  screen and (max-device-width: 1440px) and (min-device-width : 1367px){
-            @media screen  and (max-device-width: 1435px){
+    .mobmenu{
+        display: none;
+    }       
+    @media screen  and (max-device-width: 1435px){
                 .banner_org2{
                     background-image: url(../assets/models/bkg\ partern\ 4.jpg);
                     background-size: 600px 350px;
@@ -2119,12 +2129,18 @@ hr {
                 }
             }
     }
+
+    
+/*LAPTOP MEDIUM SCREENS 1280px ""if device width is greater than or equals to 1280px, then apply the CSS defined in this block.""*/
 @media only screen and (max-device-width: 1280px) and (min-device-width: 1025px){
     html, body {
         max-width: 100%;
         font-family: 'Open Sans';
         max-width: 100%;
         overflow-x: hidden;
+    }
+    .mobmenu{
+        display: none;
     }
     h1{
         font-family: Open Sans;
@@ -2172,9 +2188,6 @@ hr {
     nav li a:hover{
         text-decoration: underline;
         color: #3796DA;
-    }
-    .mobmenu{
-        display: none;
     }
     .img-responsive {
         max-height: 72px;
@@ -2724,6 +2737,15 @@ hr {
     .tripple{
         margin-bottom: -673px;
     }
+    .banner_org2{
+        background-image: url(../assets/models/bkg\ partern\ 4.jpg);
+        background-size: 600px 350px;
+        height: 510px;
+        width: 59.4%;
+        padding-bottom: 590px;
+        margin-left: 40%;
+        max-width: 100%;
+    }
     @media screen and (min-device-width: 1251px){
         .cameraft{
             position: absolute;
@@ -2797,281 +2819,284 @@ hr {
             margin-top: 55px;
             border-radius: 4px;
         }
-    }
-        .banner_org2{
-            background-image: url(../assets/models/bkg\ partern\ 4.jpg);
-            background-size: 600px 350px;
-            height: 510px;
-            width: 59.4%;
-            padding-bottom: 590px;
-            margin-left: 40%;
-            max-width: 100%;
+        .coreb {
+            max-width: 13cm;
+            margin-top: 15em;
+            margin-left: 50px;
         }
     }
     @media screen  and (min-device-width: 1200px) and (max-device-width: 1249px){
-        .cameraft{
-            position: absolute;
-            top: 0px;
-            list-style-type: none;
-            height: 600px;
-            width: 80%; 
-            margin-left: -15px;
-        }
-        .corep{
-            margin-top: 260px;
-        }
-        .coreb{
-            width: 80%;
-        }
-        .banner_org2{
-            background-image: url(../assets/models/bkg\ partern\ 4.jpg);
-            background-size: 600px 350px;
-            height: 510px;
-            width: 59.4%;
-            padding-bottom: 590px;
-            margin-left: 40%;
-            max-width: 100%;
-        }
-        .protection{
-            margin-left: 610px;
-            margin-top: 433px;
-            position: absolute;
-            width: 15%;
-         }
-         
-         .prof{
-             margin-left: 810px;
-             margin-top: 433px;
-             position: absolute;
-             width: 15%;
-         }
-            .cons{
-                 margin-left: 1010px;
+            .cameraft{
+                position: absolute;
+                top: 0px;
+                list-style-type: none;
+                height: 600px;
+                width: 80%; 
+                margin-left: -15px;
+            }
+            .mobmenu{
+                display: none;
+            }
+            .corep{
+                margin-top: 260px;
+            }
+            .coreb{
+                width: 80%;
+            }
+            .banner_org2{
+                background-image: url(../assets/models/bkg\ partern\ 4.jpg);
+                background-size: 600px 350px;
+                height: 510px;
+                width: 59.4%;
+                padding-bottom: 590px;
+                margin-left: 40%;
+                max-width: 100%;
+            }
+            .protection{
+                margin-left: 610px;
+                margin-top: 433px;
+                position: absolute;
+                width: 15%;
+             }
+             
+             .prof{
+                 margin-left: 810px;
                  margin-top: 433px;
                  position: absolute;
                  width: 15%;
-            }
-         .container2
-                 { 
-                     display:flex;
-                      justify-content:space-evenly;
-                     margin-top: 82px;
-                       margin-left: 50%;
-                       margin-bottom: -600px;
-                     
-                     
-                 } 
-                   
-                 .minor_columns
-                 { 
-                     margin-top: 15px;
-                     margin-bottom: 15px;
-                     border-spacing:0 5px;
-                     width : 31%;
-                     height: 190px;
-                     background-color: #3796da;
-                     color: #3796da;
-                     font-weight: 800;
-                     font-size: 30px; 
-                     padding: 5px;
-                     text-align: right;
-                     float: right;
-                     line-height: 0.9;
-                     background-image: url("../assets/models/bkg\ partern\ 4.jpg");
-                     background-size: 700px 450px;
-                     font-family: 'Open Sans';
-                 }
-         
-         
-         .img-col1{
-             display: inline-block;
-             margin: auto;
-             width: 273px;
-             padding: 2px;
-             margin-left: 570px;
-             margin-top: 423px;
-             height: 280px;
-             object-fit: cover;
-              }
-         
-         .img-col2 {
-                 display: flex;
+             }
+                .cons{
+                     margin-left: 1010px;
+                     margin-top: 433px;
+                     position: absolute;
+                     width: 15%;
+                }
+             .container2
+                     { 
+                         display:flex;
+                          justify-content:space-evenly;
+                         margin-top: 82px;
+                           margin-left: 50%;
+                           margin-bottom: -600px;
+                         
+                         
+                     } 
+                       
+                     .minor_columns
+                     { 
+                         margin-top: 15px;
+                         margin-bottom: 15px;
+                         border-spacing:0 5px;
+                         width : 31%;
+                         height: 190px;
+                         background-color: #3796da;
+                         color: #3796da;
+                         font-weight: 800;
+                         font-size: 30px; 
+                         padding: 5px;
+                         text-align: right;
+                         float: right;
+                         line-height: 0.9;
+                         background-image: url("../assets/models/bkg\ partern\ 4.jpg");
+                         background-size: 700px 450px;
+                         font-family: 'Open Sans';
+                     }
+             
+             
+             .img-col1{
                  display: inline-block;
                  margin: auto;
-                 width: 380px;
-                 margin-top: -378px;
-                 margin-left: 750px;
-                 height: 350px;
+                 width: 273px;
+                 padding: 2px;
+                 margin-left: 570px;
+                 margin-top: 423px;
+                 height: 280px;
                  object-fit: cover;
                   }
-         .img-col3 {
+             
+             .img-col2 {
+                     display: flex;
                      display: inline-block;
                      margin: auto;
-                     width: 360px;
-                     margin-left: 930px;
-                     margin-top: -348px;
-                     height: 270px;
+                     width: 380px;
+                     margin-top: -378px;
+                     margin-left: 750px;
+                     height: 350px;
                      object-fit: cover;
                       }
-    }
+             .img-col3 {
+                         display: inline-block;
+                         margin: auto;
+                         width: 360px;
+                         margin-left: 930px;
+                         margin-top: -348px;
+                         height: 270px;
+                         object-fit: cover;
+                          }
+        }
     @media screen  and (max-device-width: 1250px) and (min-device-width: 1208px){
-        .cameraft{
-            position: absolute;
-            top: 0px;
-            list-style-type: none;
-            height: 600px;
-            width: 80%; 
-            margin-left: -15px;
-        }
-        .corep{
-            margin-top: 260px;
-        }
-        .coreb{
-            width: 80%;
-        }
-        .banner_org2{
-            background-image: url(../assets/models/bkg\ partern\ 4.jpg);
-            background-size: 600px 350px;
-            height: 510px;
-            width: 59.4%;
-            padding-bottom: 590px;
-            margin-left: 40%;
-            max-width: 100%;
-        }
-        .protection{
-            margin-left: 620px;
-            margin-top: 433px;
-            position: absolute;
-            width: 15%;
-         }
-         
-         .prof{
-             margin-left: 830px;
-             margin-top: 433px;
-             position: absolute;
-             width: 15%;
-         }
-         @media screen  and (max-device-width: 1209px){
-         .cons{
-              margin-left: 950px;
-              margin-top: 433px;
-              position: absolute;
-              width: 15%;
-         }} 
-            .cons{
-                 margin-left: 1030px;
+            .cameraft{
+                position: absolute;
+                top: 0px;
+                list-style-type: none;
+                height: 600px;
+                width: 80%; 
+                margin-left: -15px;
+            }
+            .corep{
+                margin-top: 260px;
+            }
+            .coreb{
+                width: 80%;
+            }
+            .banner_org2{
+                background-image: url(../assets/models/bkg\ partern\ 4.jpg);
+                background-size: 600px 350px;
+                height: 510px;
+                width: 59.4%;
+                padding-bottom: 590px;
+                margin-left: 40%;
+                max-width: 100%;
+            }
+            .protection{
+                margin-left: 620px;
+                margin-top: 433px;
+                position: absolute;
+                width: 15%;
+             }
+             
+             .prof{
+                 margin-left: 830px;
                  margin-top: 433px;
                  position: absolute;
                  width: 15%;
-            }
-         .container2
-                 { 
-                     display:flex;
-                      justify-content:space-evenly;
-                     margin-top: 82px;
-                       margin-left: 50%;
-                       margin-bottom: -600px;
-                     
-                     
-                 } 
-                   
-                 .minor_columns
-                 { 
-                     margin-top: 15px;
-                     margin-bottom: 15px;
-                     border-spacing:0 5px;
-                     width : 31%;
-                     height: 190px;
-                     background-color: #3796da;
-                     color: #3796da;
-                     font-weight: 800;
-                     font-size: 30px; 
-                     padding: 5px;
-                     text-align: right;
-                     float: right;
-                     line-height: 0.9;
-                     background-image: url("../assets/models/bkg\ partern\ 4.jpg");
-                     background-size: 700px 450px;
-                     font-family: 'Open Sans';
-                 }
-         
-         
-         .img-col1{
-             display: inline-block;
-             margin: auto;
-             width: 273px;
-             padding: 2px;
-             margin-left: 540px;
-             margin-top: 423px;
-             height: 280px;
-             object-fit: cover;
-              }
-         
-         .img-col2 {
-                 display: flex;
+             }
+             @media screen  and (max-device-width: 1209px){
+             .cons{
+                  margin-left: 950px;
+                  margin-top: 433px;
+                  position: absolute;
+                  width: 15%;
+             }
+            } 
+                .cons{
+                     margin-left: 1030px;
+                     margin-top: 433px;
+                     position: absolute;
+                     width: 15%;
+                }
+             .container2
+                     { 
+                         display:flex;
+                          justify-content:space-evenly;
+                         margin-top: 82px;
+                           margin-left: 50%;
+                           margin-bottom: -600px;
+                         
+                         
+                     } 
+                       
+                     .minor_columns
+                     { 
+                         margin-top: 15px;
+                         margin-bottom: 15px;
+                         border-spacing:0 5px;
+                         width : 31%;
+                         height: 190px;
+                         background-color: #3796da;
+                         color: #3796da;
+                         font-weight: 800;
+                         font-size: 30px; 
+                         padding: 5px;
+                         text-align: right;
+                         float: right;
+                         line-height: 0.9;
+                         background-image: url("../assets/models/bkg\ partern\ 4.jpg");
+                         background-size: 700px 450px;
+                         font-family: 'Open Sans';
+                     }
+             
+             
+             .img-col1{
                  display: inline-block;
                  margin: auto;
-                 width: 380px;
-                 margin-top: -378px;
-                 margin-left: 730px;
-                 height: 350px;
+                 width: 273px;
+                 padding: 2px;
+                 margin-left: 540px;
+                 margin-top: 423px;
+                 height: 280px;
                  object-fit: cover;
                   }
-         .img-col3 {
+             
+             .img-col2 {
+                     display: flex;
                      display: inline-block;
                      margin: auto;
-                     width: 360px;
-                     margin-left: 930px;
-                     margin-top: -348px;
-                     height: 270px;
+                     width: 380px;
+                     margin-top: -378px;
+                     margin-left: 730px;
+                     height: 350px;
                      object-fit: cover;
                       }
-    }
+             .img-col3 {
+                         display: inline-block;
+                         margin: auto;
+                         width: 360px;
+                         margin-left: 930px;
+                         margin-top: -348px;
+                         height: 270px;
+                         object-fit: cover;
+                          }
+        }
     @media screen and (max-device-width: 1122px){
-        .cameraft{
-            position: absolute;
-            top: 0px;
-            margin-left: -21px;
-            list-style-type: none;
-            height: 450px;
-            width: 850px; 
-        }  
-        h1 {
-            font-family: Open Sans;
-            color: #0f1e31;
-            padding: 30px;
-            font-size: 49px;
-            position: absolute;
-            font-weight: bolder;
-            left: 25px;
-            top: -43px;
-            width: 100%;
-        }   
-        .booking{
-            height: 450px;
-            background: #fbfcfe;
-            color: #0f1e31 ;
-            margin-left: 55px;
-            width: 350px;
-            float: right;
-            font-weight: bolder;
-            font-family: 'Open Sans';
-            margin-right: 57px;
-            margin-top: 55px;
-            border-radius: 4px;
-        }
-        .service_b {
-            color: #3796da;
-            margin-top: 80px;
-        }
-        .button1 {
-            margin-left: 50px;
-            margin-top: -10px;
+            .cameraft{
+                position: absolute;
+                top: 0px;
+                margin-left: -21px;
+                list-style-type: none;
+                height: 450px;
+                width: 850px; 
+            }  
+            h1 {
+                font-family: Open Sans;
+                color: #0f1e31;
+                padding: 30px;
+                font-size: 49px;
+                position: absolute;
+                font-weight: bolder;
+                left: 25px;
+                top: -43px;
+                width: 100%;
+            }   
+            .booking{
+                height: 450px;
+                background: #fbfcfe;
+                color: #0f1e31 ;
+                margin-left: 55px;
+                width: 350px;
+                float: right;
+                font-weight: bolder;
+                font-family: 'Open Sans';
+                margin-right: 57px;
+                margin-top: 55px;
+                border-radius: 4px;
             }
-        .service_b2{
-            margin-top: 80px;
+            .service_b {
+                color: #3796da;
+                margin-top: 80px;
+            }
+            .button1 {
+                margin-left: 50px;
+                margin-top: -10px;
+                }
+            .service_b2{
+                margin-top: 80px;
+            }
         }
     }
+  
+
+
     /*LAPTOP MEDIUM SCREENS 1024px ""if device width is greater than or equals to 1024px, then apply the CSS defined in this block.""*/
 @media screen and (max-device-width: 1024px) and (min-device-width: 769px){
       body {
@@ -3708,6 +3733,11 @@ hr {
                 position: absolute;
                 width: 19%;
             }
+            .booking{
+                margin-right: 1px;
+                width: 250px;
+                height: 480px;
+            }
             .cameraft{
                 position: absolute;
                 top: 0px;
@@ -3733,10 +3763,198 @@ hr {
             }
           }
 
-        
+          @media screen and (max-device-width: 961px){
+            .nav1 {
+                width: 120%;
+                margin-left: 90px;
+            }
+            .img-col3{
+                margin-left: 930px;
+            }
+            .cons{
+                margin-left: 760px;
+                width: 18%;
+            }
+            .protection{
+                margin-left: 360px;
+            }
+            .prof{
+                margin-left: 560px;
+            }
+            .minor_columns{
+                margin-top: 15px;
+                margin-bottom: 15px;
+                border-spacing:0 5px;
+                width : 31%;
+                height: 190px;
+                background-color: #3796da;
+                color: #3796da;
+                font-weight: 800;
+                font-size: 25px; 
+                padding: 5px;
+                text-align: right;
+                line-height: 0.9;
+                background-image: url("../assets/models/bkg\ partern\ 4.jpg");
+                background-size: 700px 450px;
+                font-family: 'Open Sans';
+            }
+            .tripple{
+                margin-left: -40px;
+            }
+          }
+          @media screen and (max-device-width: 923px){
+            .cons{
+                margin-left: 750px;
+            }
+            .booking{
+                margin-right: 13px;
+                width: 340px;
+                height: 480px;
+            }
+          }
+          @media screen and (max-device-width: 914px){
+              .cons{
+                  margin-left: 720px;
+              }
+              .prof{
+                margin-left: 540px; 
+              }
+              .booking{
+                margin-right: 1px;
+                width: 330px;
+                height: 480px;
+            }
+          }
+          @media screen and (max-device-width: 909px){
+              .img-col3{
+                  margin-left: 900px;
+              }
+              .img-col2{
+                margin-left: 730px;
+            }
+            .booking{
+                margin-right: 1px;
+                width: 330px;
+                height: 480px;
+            }
+          }
+          @media screen and (max-device-width: 875px){
+              .protection, .prof, .cons{
+                  font-size: 12px;
+                  }
+                  .cons{
+                      margin-left: 700px;
+                  }
+                  .prof{
+                      margin-left: 530px;
+                  }
+                .img-col2{
+                    margin-left: 700px;
+                }
+                .img-col3{
+                    margin-left: 870px;
+                }
+                .booking{
+                    margin-right: 1px;
+                    width: 330px;
+                    height: 480px;
+                }
+          }
+          @media screen and (max-device-width: 838px){
+            .protection, .prof, .cons{
+                font-size: 12px;
+                }
+                .cons{
+                    margin-left: 680px;
+                }
+                .prof{
+                    margin-left: 530px;
+                }
+              .img-col2{
+                  margin-left: 700px;
+              }
+              .img-col3{
+                  margin-left: 860px;
+              }
+              .booking{
+                margin-right: 1px;
+                width: 330px;
+                height: 480px;
+            }
+          }
+          @media screen and (max-device-width: 850px){
+            .protection, .prof, .cons{
+                font-size: 12px;
+                }
+                .cons{
+                    margin-left: 680px;
+                }
+                .prof{
+                    margin-left: 530px;
+                }
+              .img-col2{
+                  margin-left: 700px;
+              }
+              .img-col3{
+                  margin-left: 860px;
+              }
+              .booking{
+                margin-right: 1px;
+                width: 330px;
+                height: 480px;
+            }
+          }
+          @media screen and (max-device-width: 830px){
+            .images1 {
+                white-space: nowrap;
+                margin-left: 40px;
+                position: absolute;
+            }
+            .booking{
+                margin-right: 0px;
+                width: 250px;
+                height: 480px;
+            }
+            .book{
+                text-align: center;
+                margin-right: 40px;
+                }
+            .img-col1{
+                margin-left: 650px;
+                margin-top: 400px;
+                width: 130px;
+                height: 200px;
+            }
+            .img-col2{
+                margin-left: 760px;
+                margin-top: -280px;
+                width: 230px;
+                height: 250px;
+            }
+            .img-col3{
+                margin-left: 950px;
+                margin-top: -280px;
+                width: 130px;
+                height: 200px;
+            }
+            .cons{
+                margin-top: 370px;
+            }
+            .prof{
+                margin-top: 370px;
+            }
+            .protection{
+                margin-top: 370px;
+            }
+
+          }
+
+          
     }
+
+
     /*LAPTOP MEDIUM SCREENS 768px*/
-@media screen and (max-width: 768px){
+@media screen and (max-device-width: 768px) and (min-device-width: 600px){
         .mobmenu{
             display: none;
           }
@@ -3853,18 +4071,53 @@ hr {
             width: 2%;
         }
         
-        
+        .booking {
+            height: 450px;
+            background: #fbfcfe;
+            color: #0f1e31;
+            margin-left: 55px;
+            width: 350px;
+            float: right;
+            font-weight: bolder;
+            font-family: 'Open Sans';
+            margin-right: 37px;
+            margin-top: 40px;
+            border-radius: 22px;
+        }
         .row{
             padding-top: 50px;
             margin-left: 123px;
             display: inline-block;
             padding-top: 123px;
         }
-        @media screen and (max-width: 600px) {
-            .column {
-            width: 100%;
+        @media screen and (max-width: 713px){
+            .booking {
+            width: 45%;
             }
         }
+        @media screen and (max-width: 642px){
+            .booking {
+            width: 45%;
+            }
+            .book{
+                font-size: 20px;
+                margin-right: 20px;
+            }
+            .banner_org2 {
+                background-image: url(../assets/models/bkg\ partern\ 4.jpg);
+                background-size: 600px 350px;
+                height: 510px;
+                width: 759px;
+                padding-bottom: 490px;
+                margin-left: 345px;
+                max-width: 54%;
+            }
+        }
+        @media screen and (max-width: 635px){
+            .booking {
+            width: 35%;
+            }
+            }
         
         .banner_org{
             background-image: url("../assets/models/bkg\ partern\ 4.jpg");
@@ -3983,12 +4236,12 @@ hr {
             position: absolute;
             flex: left;
             top: 45em;
-            width: 35%;
+            width: 40%;
             width: 40%;
         }
         
         .corep{
-            max-width: 15cm;
+            max-width: 19cm;
             margin-top: 6em;
             margin-left: 50px;
         }
@@ -4002,14 +4255,14 @@ hr {
         }
         
         .par2{
-            margin-top: -150px;
+            margin-top: -140px;
             position: absolute;
             flex: left;
             display: inline-block;
             width: 38%;
         }
         .service_b2{
-            margin-top: 1px;
+            margin-top: 12px;
         }
         
         .imagesb{
@@ -4333,8 +4586,8 @@ hr {
     }
 
 
-        /*MOBILE MEDIUM SCREENS 414px*/
-@media screen and (max-width: 414px){
+        /*MOBILE MEDIUM SCREENS 480px*/
+@media only screen and (min-device-width : 414px) and (max-device-width : 568px){
      html {
     overflow-x: hidden;
         }
@@ -4342,7 +4595,6 @@ hr {
         font-family: 'Open Sans';
         font-weight: 400;
     }
-    
     h1{
         font-family: Open Sans;
             color: #0f1e31 ;
@@ -4958,7 +5210,7 @@ hr {
         margin-left: -425px;
     }
 }
-@media only screen and (max-width: 360px){
+@media only screen and (min-device-width: 320px) and (max-device-width: 414px){
     body {
         max-width: 100%;
         overflow-x: hidden;
@@ -5048,8 +5300,8 @@ hr {
         margin-top: -80px;
         margin-left: 1px;
      }
-    .navbar-brand{
-        margin-top: 23px;
+    .footerinfo img{
+        margin-bottom: -150px;
     }
     .nav1{
         display: none;
@@ -5259,7 +5511,7 @@ hr {
     }
     
     .par2{
-        margin-top: 440px;
+        margin-top: 490px;
         position: absolute;
         flex: left;
         display: inline-block;
@@ -5358,8 +5610,6 @@ hr {
         font-size: 12px;
     }
     
-    
-    
     .footer{
         background-image: url("../assets/models/bkg\ partern\ 4.jpg");
         width: 100%;
@@ -5370,7 +5620,7 @@ hr {
     }
     
     .fut{
-        display: none;
+    display: none;
     }
     
     button:hover,
@@ -5497,86 +5747,28 @@ hr {
     }
     
     .protection{
-        margin-right: -201px;
-        margin-top: 1130px;
-        position: absolute;
-        width: 33%;
-        font-size: 13px;
+        display: none;
     }
     
     .prof{
-        margin-right: -115px;
-        margin-top: 1133px;
-        position: absolute;
-        width: 33%;
-        font-size: 13px;
+       display: none;
           }
     
     .cons{
-        margin-left: 590px;
-        margin-right: -12px;
-        margin-top: 1133px;
-        position: absolute;
-        width: 37%;
-        font-size: 13px;
+       display: none;
     }
     
-    .container2
-    {
-        display:flex;
-        justify-content:space-evenly;
-        margin-top: 82px;
-        margin-left: 420px;
-        margin-bottom: -600px;     
-    }
+
             
     .minor_columns
             {
-                margin-top: 15px;
-                margin-bottom: 15px;
-                width: 30%;
-                height: 90px;
-                background-color: #3796da;
-                color: #3796da;
-                text-align: right;
-                font-size: 15px;
-                background-image: url("../assets/models/bkg\ partern\ 4.jpg");
-                background-size: 700px 450px;
-                font-family: 'Open Sans';
+               display: none;
             }
     /* .container3{
         display: none;
     } */
     
-    #img1{
-        display: inline-block;
-        margin: auto;
-        width: 90px;
-        height: 155px;
-        padding: 2px;
-        margin-left: 735px;
-        margin-top: 515px;
-        object-fit: cover;
-         }
     
-    #img2 {
-        display: inline-block;
-        margin: auto;
-        width: 90px;
-        margin-top: -231px;
-        margin-left: 863px;
-        height: 190px;
-        object-fit: cover;
-             }
-    #img3 {
-        display: inline-block;
-        margin: auto;
-        width: 80px;
-        margin-top: -231px;
-        margin-left: 985px;
-        height: 150px;
-        object-fit: cover;
-        }
     
     .tripple{
         margin-top: 890px;
