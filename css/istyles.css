@@ -90,8 +90,9 @@
         display: none;
     }
 }
-/*LARGE LAPTOP SCREENS 1920px*/
-@media only screen and (max-width: 1920px){
+
+/*LAPTOP MEDIUM SCREENS 1920px ""if device width is greater than or equals to 1920px, then apply the CSS defined in this block.""*/
+@media screen  and (max-device-width: 1920px) and (min-device-width: 1601px){
     body, html {
         overflow-x: hidden;
         width: 100%;
@@ -676,8 +677,9 @@
         width: 30%;
     }
     }
-/*LAPTOP SCREENS 1600px*/
-@media only screen and (max-width: 1600px){
+
+/*LAPTOP MEDIUM SCREENS 1440px "if device width is greater than or equals to 1600px, then apply the CSS defined in this block."*/
+@media screen  and (max-device-width: 1600px) and (min-device-width: 1441px){
     body, html {
         overflow-x: hidden;
         width: 100%;
@@ -1263,8 +1265,9 @@ u{
     width: 29%;
 }
 }
-/*LAPTOP SCREENS 1440px*/
-@media only screen and (max-width: 1440px){
+
+/*LAPTOP MEDIUM SCREENS 1440px ""if device width is greater than or equals to 1440px, then apply the CSS defined in this block.""*/
+@media only  screen and (max-device-width: 1440px) and (min-device-width : 1367px){
     .body, html {
         overflow-x: hidden;
         width: 100%;
@@ -1422,8 +1425,8 @@ u{
         display: none;
     }
 }
-/*LAPTOP SCREENS 1280px*/
-@media screen and (max-width: 1280px){
+/*LAPTOP MEDIUM SCREENS 1280px ""if device width is greater than or equals to 1280px, then apply the CSS defined in this block.""*/
+@media only screen and (max-device-width: 1280px) and (min-device-width: 1025px{
     html, body{
         overflow-x: hidden;
     }
@@ -1483,8 +1486,9 @@ u{
         font-family: "myriad Pro";
     }
 }
-/*LAPTOP SCREENS 1024px*/
-@media only screen and (max-width: 1024px){
+
+/*LAPTOP MEDIUM SCREENS 1024px ""if device width is greater than or equals to 1024px, then apply the CSS defined in this block.""*/
+@media screen and (max-device-width: 1024px) and (min-device-width: 769px){
     body{
         max-width: 100%;
         overflow-x: hidden;
@@ -2047,8 +2051,8 @@ u{
     }
 
 }
-/*TABLET SCREENS 768px*/
-@media only screen and (max-width: 768px){
+    /*LAPTOP MEDIUM SCREENS 768px*/
+    @media screen and (max-device-width: 768px) and (min-device-width: 600px){
    html{
        overflow-x: hidden;
    }
@@ -2654,7 +2658,10 @@ u{
         margin-top: 505px;
     }
 
-}/*MOBILE SCREENS 414px*/
+}
+
+
+/*MOBILE SCREENS 414px*/
 @media (min-width: 359px) and (max-width: 414px){
     html{
         overflow-x: hidden;
@@ -3283,6 +3290,8 @@ u{
     }
 
 }
+
+
 /*MOBILE SCREENS 360px*/
 @media (min-width: 320px) and (max-width: 360px){
     .body{

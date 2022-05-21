@@ -308,15 +308,40 @@
       }
         
   }
-  @media only screen and (max-width: 413px) {
+@media only screen and (max-width: 413px) {
     .mobmenu {
       padding: 0 10px;
       background-color: #221d1d;
       height: 0px;
-      margin-top: 45px;
+      margin-top: 85px;
       display: flex;
       justify-content: space-between;
     }
+    #hamburger-icon {
+      display: block;
+      margin-right: 12px;
+      margin-top: -45px;
     }
+    .cameraft{
+      margin-left: 20px;
+    }
+  }
+@media only screen and (max-width: 370px){
+      .cameraft{
+        margin-left: -20px;
+      }
+      .service_b1 {
+        margin-top: -143px;
+    }
+      .imagesb {
+        flex: right;
+        position: absolute;
+        top: -30px;
+        width: 900px;
+        right: -15.9em;
+        list-style-type: none;
+    }
+  }
+
  
 /* END OF HAMBURGER MENU CSS */
