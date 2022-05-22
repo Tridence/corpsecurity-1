@@ -1,0 +1,77 @@
+@media screen and (max-device-width:1280px){
+	.carousel{
+		display: none;
+	}	
+}
+
+
+html{
+  overflow-x: hidden;
+}
+
+.acc{
+	text-align: center;
+	font-family: 'Tw Cen MT';
+    src: url('tw.eot');
+    src: url('tw.eot?#iefix') format('embedded-opentype'),
+         url('tw.woff') format('woff'),
+         url('tw.ttf') format('truetype'),
+         url('tw.svg#helveticaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	text-decoration: underline overline	
+}
+.d-block{
+  max-width: 200px; 
+  display: block; 
+  height: auto;
+  height: 190px;
+  align-items: center;
+  
+    }
+.carousel{
+  margin-top: 50px;
+  background-color: transparent;
+}
+.carousel-item{
+	width: 600px;
+    min-height: auto;
+	text-align: center;
+	margin-left: 43%;
+	background-color:transparent;
+}
+#myCarousel{
+	border-radius: 3px;
+}
+.carousel-indicators{
+	margin-bottom: -100px;
+}
+ol.carousel-indicators {
+	position: absolute;
+	bottom: 5px;
+	margin: 0;
+	margin-bottom: -30px;
+	border-radius: 10px;
+	left: 550px;
+	width: 20%;
+	background-color: #3796DA;
+}
+
+ol.carousel-indicators li, ol.carousel-indicators li.active {
+	width: 1rem;
+	height: 1rem;
+	margin: 0;
+	border-radius: 46%;
+	border: 0;
+	background: transparent;
+}
+
+ol.carousel-indicators li {
+	background: rgba(255,255,255,0.39);
+	margin-left: .5rem;
+	margin-right: .5rem;
+}
+
+ol.carousel-indicators li.active {
+	background: #0F1E31;
+}

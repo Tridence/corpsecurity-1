@@ -8,8 +8,7 @@
 html, body {
     max-width: 100%;
     font-family: 'Open Sans';
-    max-width: 100%;
-    overflow-x: hidden;
+    overflow-x: initial !important;
 }
 h1{
     font-family: Open Sans;
@@ -528,21 +527,21 @@ hr {
 
 .protection{
    margin-left: 700px;
-   margin-top: 433px;
+   margin-top: 453px;
    position: absolute;
    width: 14%;
 }
 
 .prof{
     margin-left: 920px;
-    margin-top: 433px;
+    margin-top: 453px;
     position: absolute;
     width: 14%;
 }
  
 .cons{
      margin-left:1150px;
-     margin-top: 433px;
+     margin-top: 453px;
      position: absolute;
      width: 14%;
 } 
