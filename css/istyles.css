@@ -86,7 +86,7 @@ nav li a:hover{
     line-height: 35px;
     column-gap: 50px;
     columns: 250px 3;
-    margin-left: 68px;
+    margin-left: 48px;
     margin-right: 38px;
     width: 95%;
     column-rule-width: 2px;
@@ -2041,7 +2041,7 @@ nav li a:hover{
     columns: 250px 3;
     margin-left: 68px;
     margin-right: 38px;
-    width: 95%;
+    width: 93%;
     column-rule-width: 2px;
     column-rule-color: #3796da;
     column-rule-style: dotted;
@@ -2344,8 +2344,8 @@ u{
     list-style-type: none;
     text-align: center;
     display: block;
-    right: 19em;
-    top: 1207px;
+    right: 24em;
+    top: 1165px;
     height: 555px;
     object-fit: cover;
 }
@@ -2353,7 +2353,7 @@ u{
 .fguard{
     position: absolute;
     left: 15em;
-    top: 1238px;
+    top: 1196px;
     height: 524px;
     object-fit: cover;
 }
@@ -4036,7 +4036,7 @@ u{
     nav{
         padding: 20px;
         position: sticky;
-        top: 106px;
+        top: 16px;
         z-index: 1;
             }
     
@@ -4070,7 +4070,7 @@ u{
         max-width: 150px;
         margin-left: -23px;
         margin-bottom: -75px;
-        margin-top: -28px;
+        margin-top: -58px;
     }
 
     #log{
@@ -4080,7 +4080,7 @@ u{
         width: 643px;
         margin-left: 80px;
         margin-bottom: 16px;
-        margin-top: -38px;
+        margin-top: -25px;
     } 
     .navbarr{
         width: 643px;
@@ -4117,18 +4117,13 @@ u{
         font-size: 19px;
         text-align: justify;
         line-height: 35px;
-        -webkit-columns: 250px 3;
-        -moz-columns: 250px 3;
         column-gap: 50px;
         columns: 250px 3;
-        margin-left: 58px;
+        margin-left: 28px;
         margin-right: 58px;
-    
+        width: 93%;
         column-rule-width: 2px;
         column-rule-color: #3796da;
-    
-        -webkit-column-rule-style: dotted;
-        -moz-column-rule-style: dotted;
         column-rule-style: dotted;
     }
     
@@ -4379,30 +4374,18 @@ u{
     }
     .ftrainer{
         position: absolute;
-        left: -10px;
-        top: -122px;
+        left: -60px;
+        top: -53px;
         padding: 0;
         margin: 0;
-        height: 423px;
-        width: 744px;
+        height: 623px;
+        width: 944px;
     }
     .ysecurity{
-        margin-right: 222px;
-        width: 623px;
-        left: 127px;
-        margin: 0;
-        top: 77px;
-        position: relative;
+       display: none;
     }
     .mguard{
-        position: absolute;
-        right: 140px;
-        left: 82px;
-        top: -222px;
-        width: 483px;
-        padding: 0;
-        height: 523px;
-        margin: 0;
+        display: none;
     }
     
     .guardss{
@@ -4487,7 +4470,9 @@ u{
         margin-left: 80px;
         margin-top: -3px;
        }
-    
+    .fut{
+        color: rgb(175, 175, 175);
+    }
     .services{
         margin-top: 89px;
        display: inline-block;
@@ -4498,8 +4483,8 @@ u{
                 display:flex;
                 margin-top: 2px;
                 margin-bottom: -650px;
-                width: 800px;
-                text-indent: 12%;
+                text-indent: 8%;
+                margin-left: 60px;
                 justify-content: space-between;
             }
             
@@ -4508,12 +4493,11 @@ u{
                 margin-top: 15px;
                 margin-bottom: 15px;
                 border-spacing:0 5px;
-                width : 100%;
+                width : 31%;
                 height: 190px;
                 background-color: #3796da;
                 color: #3796da;
-                font-weight: 800;
-                font-size: 43px; 
+                font-size: 35px; 
                 padding: 5px;
                 text-align: right;
                 line-height: 0.9;
@@ -4530,7 +4514,7 @@ u{
         width: 173px;
         height: 250px;
         padding: 2px;
-        margin-left: -23px;
+        margin-left: 30px;
         margin-top: 510px;
         object-fit: cover;
         position: relative;
@@ -4539,7 +4523,7 @@ u{
     .img-col2 {
         display: inline-block;
         margin: auto;
-        margin-left: 148px;
+        margin-left: 188px;
         margin-top: -381px;
         width: 373px;
         height: 350px;
@@ -4549,13 +4533,13 @@ u{
     .img-col3 {
         display: inline-block;
         margin: auto;
+        margin-left: 370px;
         margin-top: -274px; 
         width: 30px;
         height: 250px;
         position: absolute;
     }
     #img3{
-        margin-right: 460px;
         width: 453px;
     }    
     .tripple{
@@ -4601,28 +4585,34 @@ u{
     .protection ul{
         list-style-position: inside;
         justify-content: center;
-        margin-top: -83px;
-        margin-left: -9px;
-        width: 34%;
+        margin-top: -105px;
+        margin-left: 19px;
+        width: 28%;
         position: absolute;
+        font-size: 13px;
+        text-align: justify;
     }
     .professional ul {
         list-style-position: inside;
         justify-content: center;
         margin-top: -104px;
-        margin-left: 310px;
-        width: 34%;
+        margin-left: 270px;
+        width: 31%;
+        text-align: justify;
         position: absolute;
+        font-size: 13px;
     }
     
     .consultant ul{
         list-style-position: inside;
         justify-content: center;
-        margin-top: -122px;
-        margin-left: 690px;
-        width: 40%;
+        margin-top: -112px;
+        text-align: justify;
+        margin-left: 510px;
+        width: 30%;
+        font-size: 12px;
         position: absolute;
-    }
+     }
     .footer{
         margin-top: 505px;
     }
