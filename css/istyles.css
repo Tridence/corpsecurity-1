@@ -1,3 +1,9 @@
+@media screen and (min-device-width: 570px) {
+    .mobmenu{
+        display: none;
+    }
+  }
+
 /*LAPTOP MEDIUM SCREENS 1366px "if device width is greater than or equals to 1600px, then apply the CSS defined in this block."*/
 @media only screen and (max-device-width: 1366px) and (min-device-width: 1280px){
     body, html {
