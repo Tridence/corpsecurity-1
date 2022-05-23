@@ -1,4 +1,4 @@
-@media screen and (min-device-width: 570px) {
+/* @media screen and (min-device-width: 570px) { */
     .mobmenu{
         display: none;
     }
@@ -4717,6 +4717,7 @@ u{
         background-image: url("../assets/models/bkg\ partern\ 4.jpg");
         background-size: 600px 350px;
         height: 510px;
+        margin-top: -100px;
         padding-bottom: 590px;
         max-width: 100%;
     }
@@ -4815,7 +4816,7 @@ u{
         touch-action: manipulation;
         vertical-align: baseline;
         white-space: nowrap;
-        top: 1818px;
+        top: 2270px;
         margin-left: 43px;
             }
     
@@ -4864,8 +4865,8 @@ u{
     .iconv{
         width: 1153px;
         height: 733px;
-        margin-left:291px;
-        margin-top: 263px;
+        margin-left: -50px;
+        margin-top: 10px;
         position: absolute;       
     }
     
@@ -4945,8 +4946,14 @@ u{
         margin-bottom: 42px;
     }
     .move{
-        margin-top: -16em;
+        margin-top: 34px;
         list-style-type: none;
+        margin-left: 840px;
+        width: 450px;
+        height: 300px;
+        border-radius:
+         0px;
+        background-color: #000000;
     
     }
     .ftrainer{
@@ -4978,8 +4985,8 @@ u{
         list-style-type: none;
         text-align: center;
         display: block;
-        right: 22em;
-        top: 2248px;
+        right: 15em;
+        top: 2348px;
         height: 225px;
         object-fit: cover;
         width: 212px;

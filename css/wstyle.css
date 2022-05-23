@@ -9,6 +9,7 @@ html, body {
     max-width: 100%;
     font-family: 'Open Sans';
     overflow-x: initial !important;
+    overflow-x: hidden;
 }
 h1{
     font-family: Open Sans;
@@ -238,7 +239,7 @@ margin-top: 19px;
 }
 
 .corep{
-    max-width: 15cm;
+    max-width: 14cm;
     margin-top: 15em;
     margin-left: 50px;
 }
@@ -271,7 +272,7 @@ margin-top: 19px;
 .cameraft{
     position: absolute;
     top: 0px;
-    margin-left: -36px;
+    margin-left: -25px;
     list-style-type: none;
     height: 600px;
     width: 1200px; 
@@ -355,33 +356,39 @@ margin-top: 19px;
     background: #fbfcfe;
     color: #0f1e31 ;
     margin-left: 55px;
-    width: 550px;
+    width: 500px;
     float: right;
     font-weight: bolder;
     font-family: 'Open Sans';
     margin-right: 57px;
     margin-top: 55px;
-    border-radius: 4px;
+    border-radius: 8px;
 }
 .book{
-    font-family: 'Open Sans';
-    margin-left: 29px;
-    padding-top: 23px;
     text-align: center;
+    padding-top: 23px;
+    padding-bottom: 20px;
 }
 
 input, select, textarea {
     border-radius: 4px;
-    border: 2px solid rgba(184, 182, 182, 0.666);
+    border: 2px solid rgba(255, 255, 255, 0.666);
     font-size: 1.25em;
     font-family: 'Myriad Pro';
-    width: 88%;
-    background-color: #f2f2f2b6;
+    width: 90%;
+    background-color: #eee5e5b6;
     padding-left: 12px;
     margin-block-start: 12px;
     margin-inline-start: 5%;
     padding-top: 6px;
-    padding: 13px;
+    padding: 16px;
+}
+ .elem-group{
+    margin-left: 40px;
+    
+} 
+.bookbtn{
+    text-align: center;
 }
 
 div.elem-group.inlined input {
@@ -1732,33 +1739,39 @@ hr {
         background: #fbfcfe;
         color: #0f1e31 ;
         margin-left: 55px;
-        width: 550px;
+        width: 500px;
         float: right;
         font-weight: bolder;
         font-family: 'Open Sans';
         margin-right: 57px;
         margin-top: 55px;
-        border-radius: 4px;
+        border-radius: 8px;
     }
     .book{
-        font-family: 'Open Sans';
-        margin-left: 29px;
-        padding-top: 23px;
         text-align: center;
+        padding-top: 23px;
+        padding-bottom: 20px;
     }
     
     input, select, textarea {
         border-radius: 4px;
-        border: 2px solid rgba(184, 182, 182, 0.666);
+        border: 2px solid rgba(255, 255, 255, 0.666);
         font-size: 1.25em;
         font-family: 'Myriad Pro';
-        width: 88%;
-        background-color: #f2f2f2b6;
+        width: 90%;
+        background-color: #eee5e5b6;
         padding-left: 12px;
         margin-block-start: 12px;
         margin-inline-start: 5%;
         padding-top: 6px;
-        padding: 13px;
+        padding: 16px;
+    }
+     .elem-group{
+        margin-left: 40px;
+        
+    } 
+    .bookbtn{
+        text-align: center;
     }
     
     div.elem-group.inlined input {
@@ -2489,33 +2502,39 @@ hr {
         background: #fbfcfe;
         color: #0f1e31 ;
         margin-left: 55px;
-        width: 450px;
+        width: 500px;
         float: right;
         font-weight: bolder;
         font-family: 'Open Sans';
         margin-right: 57px;
         margin-top: 55px;
-        border-radius: 4px;
+        border-radius: 8px;
     }
     .book{
-        font-family: 'Open Sans';
-        margin-left: 29px;
-        padding-top: 23px;
         text-align: center;
+        padding-top: 23px;
+        padding-bottom: 20px;
     }
     
     input, select, textarea {
         border-radius: 4px;
-        border: 2px solid rgba(184, 182, 182, 0.666);
+        border: 2px solid rgba(255, 255, 255, 0.666);
         font-size: 1.25em;
         font-family: 'Myriad Pro';
-        width: 88%;
-        background-color: #f2f2f2b6;
+        width: 90%;
+        background-color: #eee5e5b6;
         padding-left: 12px;
         margin-block-start: 12px;
         margin-inline-start: 5%;
         padding-top: 6px;
-        padding: 13px;
+        padding: 16px;
+    }
+     .elem-group{
+        margin-left: 40px;
+        
+    } 
+    .bookbtn{
+        text-align: center;
     }
     
     div.elem-group.inlined input {
@@ -2809,7 +2828,7 @@ hr {
         .cameraft{
             position: absolute;
             top: 0px;
-            margin-left: 10px;
+            margin-left: 40px;
             list-style-type: none;
             height: 450px;
             width: 850px; 
@@ -2820,7 +2839,7 @@ hr {
             background: #fbfcfe;
             color: #0f1e31 ;
             margin-left: 55px;
-            width: 420px;
+            width: 400px;
             float: right;
             font-weight: bolder;
             font-family: 'Open Sans';
@@ -3111,7 +3130,7 @@ hr {
       body {
             max-width: 100%;
             overflow-x: hidden;
-            font-family: 'Open Sans';
+            /* font-family: 'Open Sans'; */
             font-weight: 900;
         }
         .mobmenu{
@@ -3261,36 +3280,42 @@ hr {
         }
         .booking{
             height: 450px;
-            background: #fefeff;
-            color: #0f1e31;
+            background: #fbfcfe;
+            color: #0f1e31 ;
             margin-left: 55px;
             width: 400px;
             float: right;
             font-weight: bolder;
             font-family: 'Open Sans';
-            margin-right: 28px;
+            margin-right: 57px;
             margin-top: 55px;
-            border-radius: 20px;
+            border-radius: 8px;
         }
         .book{
-            font-family: 'Open Sans';
-            margin-left: 29px;
-            padding-top: 23px;
             text-align: center;
+            padding-top: 23px;
+            padding-bottom: 20px;
         }
         
         input, select, textarea {
             border-radius: 4px;
-            border: 2px solid rgba(184, 182, 182, 0.666);
+            border: 2px solid rgba(255, 255, 255, 0.666);
             font-size: 1.25em;
             font-family: 'Myriad Pro';
-            width: 88%;
-            background-color: #f2f2f2b6;
+            width: 90%;
+            background-color: #eee5e5b6;
             padding-left: 12px;
             margin-block-start: 12px;
             margin-inline-start: 5%;
             padding-top: 6px;
-            padding: 13px;
+            padding: 16px;
+        }
+         .elem-group{
+            margin-left: 40px;
+            
+        } 
+        .bookbtn{
+            text-align: center;
         }
         
         div.elem-group.inlined input {
@@ -3743,9 +3768,9 @@ hr {
                 width: 19%;
             }
             .booking{
-                margin-right: 1px;
+                margin-right: 20px;
                 width: 250px;
-                height: 480px;
+                height: 450px;
             }
             .cameraft{
                 position: absolute;
@@ -3818,7 +3843,7 @@ hr {
             .booking{
                 margin-right: 13px;
                 width: 340px;
-                height: 480px;
+                height: 450px;
             }
           }
           @media screen and (max-device-width: 914px){
@@ -3829,9 +3854,9 @@ hr {
                 margin-left: 540px; 
               }
               .booking{
-                margin-right: 1px;
+                margin-right: 13px;
                 width: 330px;
-                height: 480px;
+                height: 450px;
             }
           }
           @media screen and (max-device-width: 909px){
@@ -3842,9 +3867,9 @@ hr {
                 margin-left: 730px;
             }
             .booking{
-                margin-right: 1px;
+                margin-right: 10px;
                 width: 330px;
-                height: 480px;
+                height: 440px;
             }
           }
           @media screen and (max-device-width: 875px){
@@ -3864,9 +3889,9 @@ hr {
                     margin-left: 870px;
                 }
                 .booking{
-                    margin-right: 1px;
+                    margin-right: 10px;
                     width: 330px;
-                    height: 480px;
+                    height: 450px;
                 }
           }
           @media screen and (max-device-width: 838px){
@@ -3888,7 +3913,7 @@ hr {
               .booking{
                 margin-right: 1px;
                 width: 330px;
-                height: 480px;
+                height: 450px;
             }
           }
           @media screen and (max-device-width: 850px){
@@ -4601,7 +4626,7 @@ hr {
     overflow-x: hidden;
         }
     body {
-        font-family: 'Open Sans';
+        /* font-family: 'Open Sans'; */
         font-weight: 400;
     }
     h1{
@@ -4759,43 +4784,45 @@ hr {
         max-width: 100%;
         max-height: 95%;
     }
+    
     .booking{
         height: 450px;
-        background: #ffffff;
-        color: #0f1e31;
+        background: #fbfcfe;
+        color: #0f1e31 ;
         margin-left: 55px;
-        width: 100%;
+        width: 500px;
+        float: right;
         font-weight: bolder;
         font-family: 'Open Sans';
-        margin-right: 15px;
-        text-align: center;
-        margin-top: 185px;
-        border-radius: 4px;
-        }
+        margin-right: 57px;
+        margin-top: 55px;
+        border-radius: 8px;
+    }
     .book{
-        font-family: 'Open Sans';
-        margin-left: 29px;
-        padding-top: 23px;
         text-align: center;
+        padding-top: 23px;
+        padding-bottom: 20px;
     }
     
     input, select, textarea {
         border-radius: 4px;
-        border: 2px solid rgba(184, 182, 182, 0.666);
+        border: 2px solid rgba(255, 255, 255, 0.666);
         font-size: 1.25em;
         font-family: 'Myriad Pro';
-        width: 88%;
-        background-color: #f2f2f2b6;
+        width: 90%;
+        background-color: #eee5e5b6;
         padding-left: 12px;
         margin-block-start: 12px;
         margin-inline-start: 5%;
         padding-top: 6px;
-        padding: 13px;
+        padding: 16px;
     }
-    
-    div.elem-group.inlined input {
-        width: 100%;
-        display: inline-block;
+     .elem-group{
+        margin-left: 40px;
+        
+    } 
+    .bookbtn{
+        text-align: center;
     }
     
     .whatwedo{
@@ -5223,7 +5250,6 @@ hr {
     body {
         max-width: 100%;
         overflow-x: hidden;
-        font-family: 'Open Sans';
         font-weight: 400;
     }
     
@@ -5389,36 +5415,39 @@ hr {
     }
     .booking{
         height: 450px;
-        background: #ffffff;
-        color: #0f1e31;
-        margin-left: 55px;
-        width: 100%;
+        background: #fbfcfe;
+        color: #0f1e31 ;
+        width: 90%;
         font-weight: bolder;
-        font-family: 'Open Sans';
-        margin-right: 15px;
-        text-align: center;
-        margin-top: 185px;
-        border-radius: 4px;
-        }
+        margin-right: 21px;
+        margin-top: 175px;
+        border-radius: 8px;
+    }
     .book{
-        font-family: 'Open Sans';
-        margin-left: 29px;
-        padding-top: 23px;
         text-align: center;
+        padding-top: 23px;
+        padding-bottom: 20px;
     }
     
     input, select, textarea {
         border-radius: 4px;
-        border: 2px solid rgba(184, 182, 182, 0.666);
+        border: 2px solid rgba(255, 255, 255, 0.666);
         font-size: 1.25em;
         font-family: 'Myriad Pro';
-        width: 88%;
-        background-color: #f2f2f2b6;
+        width: 90%;
+        background-color: #eee5e5b6;
         padding-left: 12px;
         margin-block-start: 12px;
         margin-inline-start: 5%;
         padding-top: 6px;
-        padding: 13px;
+        padding: 16px;
+    }
+     .elem-group{
+        margin-left: 40px;
+        
+    } 
+    .bookbtn{
+        text-align: center;
     }
     
     div.elem-group.inlined input {
@@ -5767,18 +5796,24 @@ hr {
        display: none;
     }
     
-
+    /* .img-col2 {
+        position: absolute;
+        display: inline-block;
+        margin: auto;
+        width: 90px;
+        margin-top: -231px;
+        margin-left: 571px;
+        height: 190px;
+        object-fit: cover;
+        } */
+    .img-col1, .img-col2, .img-col3{
+        display: none;
+    }  
             
     .minor_columns
             {
                display: none;
             }
-    /* .container3{
-        display: none;
-    } */
-    
-    
-    
     .tripple{
         margin-top: 890px;
         margin-left: -425px;

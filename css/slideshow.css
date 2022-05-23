@@ -1,11 +1,230 @@
-@media screen and (max-device-width:1280px){
-	.carousel{
-		display: none;
-	}	
+@media only screen and (max-device-width: 1920px){
+	html, body{
+		overflow-x: initial;
+	  }
+	  
+	  .acc{
+		  text-align: center;
+		  font-family: 'Tw Cen MT';
+		  src: url('tw.eot');
+		  src: url('tw.eot?#iefix') format('embedded-opentype'),
+			   url('tw.woff') format('woff'),
+			   url('tw.ttf') format('truetype'),
+			   url('tw.svg#helveticaregular') format('svg');
+		  font-weight: normal;
+		  font-style: normal;
+		  text-decoration: underline overline	
+		  margin-right 50px;
+	  }
+	  .d-block{
+		max-width: 200px; 
+		display: block; 
+		height: auto;
+		height: 190px;
+		align-items: center;
+		
+		  }
+	  .carousel{
+		margin-top: 50px;
+		background-color: transparent;
+	  }
+	  .carousel-item{
+		  width: 600px;
+		  min-height: auto;
+		  text-align: center;
+		  margin-left: 43%;
+		  background-color:transparent;
+	  }
+	  #myCarousel{
+		  border-radius: 3px;
+	  }
+	  .carousel-indicators{
+		  margin-bottom: -100px;
+	  }
+	  ol.carousel-indicators {
+		  position: absolute;
+		  bottom: 5px;
+		  margin: 0;
+		  margin-bottom: -30px;
+		  border-radius: 10px;
+		  left: 780px;
+		  width: 20%;
+		  background-color: #3796DA;
+	  }
+	  
+	  ol.carousel-indicators li, ol.carousel-indicators li.active {
+		  width: 2em;
+		  height: 4px;
+		  margin: 0;
+		  margin-bottom: 0px;
+		  border-radius: 50%;
+		  border: 0;
+		  background: transparent;
+	  }
+	  
+	  ol.carousel-indicators li {
+		  background: rgba(255, 255, 255, 0.39);
+		  margin-left: .5rem;
+		  margin-right: .5rem;
+		  border-radius: 70%;
+	  }
+	  
+	  ol.carousel-indicators li.active {
+		  background: #0F1E31;
+	  }
 }
-
-
-html{
+@media only screen and (max-device-width: 1600px){
+	html, body{
+	   overflow-x: initial;
+	 }
+	 
+	 .acc{
+		 text-align: center;
+		 font-family: 'Tw Cen MT';
+		 src: url('tw.eot');
+		 src: url('tw.eot?#iefix') format('embedded-opentype'),
+			  url('tw.woff') format('woff'),
+			  url('tw.ttf') format('truetype'),
+			  url('tw.svg#helveticaregular') format('svg');
+		 font-weight: normal;
+		 font-style: normal;
+		 text-decoration: underline overline	
+	 }
+	 .d-block{
+	   max-width: 200px; 
+	   display: block; 
+	   height: auto;
+	   height: 190px;
+	   align-items: center;
+	   
+		 }
+	 .carousel{
+	   margin-top: 50px;
+	   background-color: transparent;
+	 }
+	 .carousel-item{
+		 width: 600px;
+		 min-height: auto;
+		 text-align: center;
+		 margin-left: 43%;
+		 background-color:transparent;
+	 }
+	 #myCarousel{
+		 border-radius: 3px;
+	 }
+	 .carousel-indicators{
+		 margin-bottom: -100px;
+	 }
+	 ol.carousel-indicators {
+		 position: absolute;
+		 bottom: 5px;
+		 margin: 0;
+		 margin-bottom: -30px;
+		 border-radius: 10px;
+		 left: 630px;
+		 width: 20%;
+		 background-color: #3796DA;
+	 }
+	 
+	 ol.carousel-indicators li, ol.carousel-indicators li.active {
+		 width: 2em;
+		 height: 4px;
+		 margin: 0;
+		 margin-bottom: 0px;
+		 border-radius: 50%;
+		 border: 0;
+		 background: transparent;
+	 }
+	 
+	 ol.carousel-indicators li {
+		 background: rgba(255, 255, 255, 0.39);
+		 margin-left: .5rem;
+		 margin-right: .5rem;
+		 border-radius: 70%;
+	 }
+	 
+	 ol.carousel-indicators li.active {
+		 background: #0F1E31;
+	 }
+}
+@media only screen and (max-device-width: 1440px){
+	ol.carousel-indicators {
+	  position: absolute;
+	  bottom: 5px;
+	  margin: 0;
+	  margin-bottom: -30px;
+	  border-radius: 10px;
+	  left: 576px;
+	  width: 20%;
+	  background-color: #3796DA;
+  }
+  
+	html, body{
+	  overflow-x: initial;
+	}
+	
+	.acc{
+		text-align: center;
+		font-family: 'Tw Cen MT';
+		src: url('tw.eot');
+		src: url('tw.eot?#iefix') format('embedded-opentype'),
+			 url('tw.woff') format('woff'),
+			 url('tw.ttf') format('truetype'),
+			 url('tw.svg#helveticaregular') format('svg');
+		font-weight: normal;
+		font-style: normal;
+		text-decoration: underline overline	
+	}
+	.d-block{
+	  max-width: 200px; 
+	  display: block; 
+	  height: auto;
+	  height: 190px;
+	  align-items: center;
+	  
+		}
+	.carousel{
+	  margin-top: 50px;
+	  background-color: transparent;
+	}
+	.carousel-item{
+		width: 600px;
+		min-height: auto;
+		text-align: center;
+		margin-left: 43%;
+		background-color:transparent;
+	}
+	#myCarousel{
+		border-radius: 3px;
+	}
+	.carousel-indicators{
+		margin-bottom: -100px;
+	}
+  
+	ol.carousel-indicators li, ol.carousel-indicators li.active {
+		width: 2em;
+		height: 4px;
+		margin: 0;
+		margin-bottom: 0px;
+		border-radius: 50%;
+		border: 0;
+		background: transparent;
+	}
+	
+	ol.carousel-indicators li {
+		background: rgba(255, 255, 255, 0.39);
+		margin-left: .5rem;
+		margin-right: .5rem;
+		border-radius: 70%;
+	}
+	
+	ol.carousel-indicators li.active {
+		background: #0F1E31;
+	}
+  }
+@media only screen and (max-device-width: 1366px){
+html, body{
+  overflow-x: initial;
   overflow-x: hidden;
 }
 
@@ -18,8 +237,9 @@ html{
          url('tw.ttf') format('truetype'),
          url('tw.svg#helveticaregular') format('svg');
     font-weight: normal;
+	margin-left: 30px;
     font-style: normal;
-	text-decoration: underline overline	
+	text-decoration: underline overline;
 }
 .d-block{
   max-width: 200px; 
@@ -27,7 +247,7 @@ html{
   height: auto;
   height: 190px;
   align-items: center;
-  
+    
     }
 .carousel{
   margin-top: 50px;
@@ -51,27 +271,40 @@ ol.carousel-indicators {
 	bottom: 5px;
 	margin: 0;
 	margin-bottom: -30px;
-	border-radius: 10px;
-	left: 550px;
-	width: 20%;
+	border-radius: 0px;
+	left: 580px;
+	width: 14.8%;
 	background-color: #3796DA;
 }
 
 ol.carousel-indicators li, ol.carousel-indicators li.active {
-	width: 1rem;
-	height: 1rem;
+	width: 2em;
+	height: 4px;
 	margin: 0;
-	border-radius: 46%;
+	margin-bottom: 0px;
+	border-radius: 50%;
 	border: 0;
 	background: transparent;
 }
 
 ol.carousel-indicators li {
-	background: rgba(255,255,255,0.39);
+	background: rgba(255, 255, 255, 0.39);
 	margin-left: .5rem;
 	margin-right: .5rem;
+	border-radius: 70%;
 }
 
 ol.carousel-indicators li.active {
 	background: #0F1E31;
 }
+}
+@media screen and (max-device-width:1280px){
+	.carousel{
+		display: none;
+	}	
+	html{
+		overflow-x: hidden;
+	  }
+}
+
+
