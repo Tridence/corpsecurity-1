@@ -620,6 +620,10 @@ hr {
     margin-bottom: -673px;
 }
 @media screen  and (max-device-width: 1364px){
+    body, html {
+        overflow-x: hidden;
+        width: 100%;
+    }
     .cameraft{
         position: absolute;
         top: 0px;
@@ -630,7 +634,11 @@ hr {
     }
 }
 @media screen  and (max-device-width: 1350px){
-.cameraft{
+    body, html {
+        overflow-x: hidden;
+        width: 100%;
+    }
+    .cameraft{
     position: absolute;
     top: 0px;
     margin-left: -16px;
@@ -2097,6 +2105,10 @@ hr {
     .mobmenu{
         display: none;
     }       
+    body, html {
+        overflow-x: hidden;
+        width: 100%;
+    }
     @media screen  and (max-device-width: 1435px){
                 .banner_org2{
                     background-image: url(../assets/models/bkg\ partern\ 4.jpg);
@@ -2107,8 +2119,17 @@ hr {
                     margin-left: 630px;
                     max-width: 100%;
                 }
+                
+            body, html {
+                overflow-x: hidden;
+                width: 100%;
+            }
             }
             @media screen  and (min-device-width: 1367px){
+                body, html {
+                    overflow-x: hidden;
+                    width: 100%;
+                }
                 .banner_org2{
                     background-image: url(../assets/models/bkg\ partern\ 4.jpg);
                     background-size: 600px 350px;
@@ -3989,7 +4010,12 @@ hr {
 
     /*LAPTOP MEDIUM SCREENS 768px*/
 @media screen and (max-device-width: 768px) and (min-device-width: 600px){
-        .mobmenu{
+    
+    body, html {
+        overflow-x: hidden;
+        width: 100%;
+    }    
+    .mobmenu{
             display: none;
           }
         h1{

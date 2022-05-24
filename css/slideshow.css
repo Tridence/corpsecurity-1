@@ -271,7 +271,7 @@ ol.carousel-indicators {
 	bottom: 5px;
 	margin: 0;
 	margin-bottom: -30px;
-	border-radius: 0px;
+	border-radius: 6px;
 	left: 580px;
 	width: 14.8%;
 	background-color: #3796DA;
@@ -295,7 +295,7 @@ ol.carousel-indicators li {
 }
 
 ol.carousel-indicators li.active {
-	background: #0F1E31;
+	background: #ffffff;
 }
 }
 @media screen and (max-device-width:1280px){
