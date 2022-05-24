@@ -1367,6 +1367,48 @@ u{
         float: center;
         width: 26%;
     }
+
+    @media only screen and (max-device-width: 1821px){
+        .fguard {
+            position: absolute;
+            left: 26em;
+            top: 1066px;
+            height: 524px;
+            object-fit: cover;
+        }
+        .guardss {
+            position: absolute;
+            list-style-type: none;
+            text-align: center;
+            display: block;
+            right: 37em;
+            top: 976px;
+            height: 615px;
+            object-fit: cover;
+        }
+
+    }
+    @media only screen and (max-device-width: 1804px){
+        .fguard {
+            position: absolute;
+            left: 26em;
+            top: 1085px;
+            height: 524px;
+            object-fit: cover;
+        }
+        .guardss {
+            position: absolute;
+            list-style-type: none;
+            text-align: center;
+            display: block;
+            right: 37em;
+            top: 994px;
+            height: 615px;
+            object-fit: cover;
+        }
+
+    }
+
     }
 
 /*LAPTOP MEDIUM SCREENS 1440px "if device width is greater than or equals to 1600px, then apply the CSS defined in this block."*/

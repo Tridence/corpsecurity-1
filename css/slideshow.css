@@ -47,7 +47,7 @@
 		  margin: 0;
 		  margin-bottom: -30px;
 		  border-radius: 10px;
-		  left: 780px;
+		  left: 745px;
 		  width: 20%;
 		  background-color: #3796DA;
 	  }
@@ -72,6 +72,25 @@
 	  ol.carousel-indicators li.active {
 		  background: #0F1E31;
 	  }
+	  @media only screen and (max-device-width: 1800px){
+	  ol.carousel-indicators {
+		position: absolute;
+		left: 715px;
+	            }
+				.acc{
+					margin-right: 20px;
+					}
+	  }
+	  @media only screen and (max-device-width: 1740px){
+		ol.carousel-indicators {
+		  position: absolute;
+		  left: 673px;
+			}
+		.acc{
+			margin-right: 50px;
+			}
+		}
+	
 }
 @media only screen and (max-device-width: 1600px){
 	html, body{
@@ -146,6 +165,15 @@
 	 ol.carousel-indicators li.active {
 		 background: #0F1E31;
 	 }
+	 @media only screen and (max-device-width: 1540px){
+		ol.carousel-indicators {
+		  position: absolute;
+		  left: 600px;
+			}
+		.acc{
+			margin-right: 20px;
+			}
+	}
 }
 @media only screen and (max-device-width: 1440px){
 	ol.carousel-indicators {
