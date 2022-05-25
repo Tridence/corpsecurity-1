@@ -4,7 +4,7 @@
       display: none;
   }
 }
-
+/*MOBILE MENU*/
 @media only screen and (min-device-width: 414px) and (max-device-width: 568px){
   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
   
@@ -148,6 +148,8 @@
     }
     
   }
+
+/*MOBILE MENU*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 414px){
       @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
       
@@ -175,8 +177,9 @@
       .img-responsive {
           max-height: 72px;
           max-width: 150px;
-          margin-left: 0;
-          margin-bottom: 35px;
+          margin-left: -30px;
+          margin-top: -65px;
+          margin-bottom: 85px;
       }
 
       .mobile1 {
@@ -234,6 +237,8 @@
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
+        margin-left: 240px;
+        margin-top: 6px;
       }
       
       .mobile-menu {
@@ -296,6 +301,7 @@
           display: block;
           margin-right: 12px;
           margin-top: -30px;
+          margin-left: 340px;
         }
       }
       .img-col1{
