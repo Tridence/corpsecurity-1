@@ -5,7 +5,7 @@
 }
 
 /*LAPTOP SCREENS 1920px*/
-@media only screen and (max-device-width: 1920px){
+@media only screen and (max-device-width: 1920px) and (min-device-width: 1601px){
     html{
         overflow-x: hidden;
     }
@@ -20,6 +20,8 @@
     }
     #copyright{
         margin-top: 30px;
+        margin-left: -20px;
+        font-family: 'Trebuchet MS';
     }
     nav{
         padding: 4px;
@@ -39,7 +41,7 @@
     #image{
         position: absolute;
         margin-left: 50px;
-        margin-top: -511px;
+        margin-top: 1px;
         }
     .column4{
         margin-left: 80px;
@@ -499,7 +501,7 @@
     }
 
 /*LAPTOP SCREENS 1600px*/
-@media only screen and (max-device-width: 1600px){
+@media only screen and (max-device-width: 1600px) and (min-device-width: 1441px){
     body {
         max-width: 100%;
         overflow-x: hidden;
@@ -507,7 +509,9 @@
         font-weight: 900;
     }
     #copyright{
-        margin-top: 10px;
+            margin-top: 50px;
+            margin-left: -20px;
+            font-family: 'Trebuchet MS';
     }
     .mobmenu{
         display: none;
@@ -566,7 +570,7 @@
     #image{
         position: absolute;
         margin-left: -20px;
-        margin-top: -1117px;
+        margin-top: -882px;
     }
     
     .column1 {
@@ -584,7 +588,14 @@
         display: flex;
         margin-top: 90px;
     }
-    
+    .column4{
+        margin-left: 80px;
+        margin-top: 60px;
+    }
+    .column3{
+        margin-left: 520px;
+        margin-top: -255px;
+    }
     u{
         text-decoration-color: #3796DA;
     }
@@ -987,82 +998,511 @@
     }
 
     /*LAPTOP SCREENS 1440px*/
-@media only screen and (max-device-width: 1440px){
+@media only screen and (min-device-width: 1367px) and (max-device-width: 1440px) {
         body {
             max-width: 100%;
             overflow-x: hidden;
             font-family: 'Open Sans';
             font-weight: 900;
         }
-    
-        .images1 li {
-            height: 677px;
-            width: 998px;
-            bottom: 326px;
-            position: absolute;
-            margin-left: 123px;
+        #copyright{
+            margin-top: 10px;
+                margin-top: 50px;
+                margin-left: -25px;
+                font-family: 'Trebuchet MS';
         }
         .mobmenu{
             display: none;
         }
-        #copyright{
-            margin-top: 30px;
+        nav{
+            padding: 4px;
+            position: sticky;
+            z-index: 1;
+            padding-bottom: 57px;
+            margin-bottom: -40px;
+        }
+        
+        nav ul{
+            white-space: nowrap;
+            margin: 0 auto;
+            text-align: center;
+            color: #0360d8;
+        
+        }
+        
+        nav li{
+            font-size: 18px;
+            width: 19%;
+            text-align: center;
+            display: inline-block;
+        } 
+        
+        nav li a{
+            text-decoration: none;
+            color: #0F1E31;
+        }
+        
+        nav li a:hover{
+            text-decoration: underline;
+            color: #3796DA;
+        }
+        
+        .img-responsive {
+            max-height: 72px;
+            max-width: 350px;
+            margin-left: -23px;
+            margin-bottom: -75px;
+        }
+        .nav1{
+            width: 100%;
+            margin-left: 60px;
+        }
+        .fut{
+            color: white;
+            width: 100%;
+            margin-top: -23px;
+        }
+        #log{
+            margin-left: 42px;
         }
         #image{
             position: absolute;
             margin-left: -20px;
-            margin-top: -189px;
+            margin-top: -885px;
         }
-        .contact{
+        
+        .column1 {
+            font-size: 17px;
+            text-align: left ;
+            margin-left:70px;
+            display: flex;
+            color:#3796da;
+            max-width: 100%;
+        }
+        
+        .column2 {
+            font-size: 17px;
+            margin-left: 70px;
+            display: flex;
+            margin-top: 90px;
+        }
+        .column4{
+            margin-left: 80px;
+            margin-top: 60px;
+        }
+        .column3{
+            margin-left: 450px;
+            margin-top: -255px;
+        }
+        u{
+            text-decoration-color: #3796DA;
+        }
+        
+        .booking{
+            height: 450px;
+            background: #fbfcfe;
+            color: #0f1e31 ;
+            margin-left: 55px;
+            width: 500px;
+            float: right;
+            font-weight: bolder;
+            font-family: 'Open Sans';
+            margin-right: 57px;
+            margin-top: 55px;
+            border-radius: 8px;
+        }
+        .book{
+            text-align: center;
+            padding-top: 23px;
+            padding-bottom: 20px;
+        }
+        
+        input, select, textarea {
+            border-radius: 4px;
+            border: 2px solid rgba(255, 255, 255, 0.666);
+            font-size: 1.25em;
+            font-family: 'Myriad Pro';
+            width: 90%;
+            background-color: #eee5e5b6;
+            padding-left: 12px;
+            margin-block-start: 12px;
+            margin-inline-start: 5%;
+            padding-top: 6px;
+            padding: 16px;
+        }
+         .elem-group{
+            margin-left: 40px;
+            
+        } 
+        .bookbtn{
+            text-align: center;
+        }
+        
+        div.elem-group.inlined input {
+            width: 100%;
+            display: inline-block;
+        }
+                    
+        .images1 li{
+            height: 577px;
+            width: 998px;
+            bottom: -410px;
+            position: absolute;
+            margin-left: 123px;
+            }
+        
+        .service_b{
+            color: #3796DA;
+            padding: 30px;
+            font-size: 60px;
+            position: absolute;
+            line-height: 1.3;
+            word-spacing: -3px;
+            left: 1em;
+            top: 150px;
+            font-weight: bold;
+            text-decoration-color: #3796DA;
+            text-underline-offset: 13px;
+            font-family: 'Open Sans';
+        }
+        .row{
+            padding-top: 50px;
+        }
+        @media screen and (max-width: 600px) {
+            .column {
+              width: 100%;
+            }
+          }
+          .banner{
+            bottom: 10;
+            position: relative;
+            margin-bottom: -73px;
+        }
+        
+        .banner_org{
+            background-image: url("../assets/models/bkg\ partern\ 4.jpg");
+            background-size: 600px 350px;
+            height: 510px;
+            padding-bottom: 590px;
+            margin-left: 5px;
+            margin-right: 5px;
+            
+        }
+        
+        .banner img{
+            max-width: 100%;
+            max-height: 100%;
+        }
+        
+        .navbar-header{
+            margin-bottom: 43px;
+        }
+        
+        .button-7 {
+            background-color: #0095ff;
+            border: 1px solid transparent;
+            border-radius: 3px;
+            box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+            box-sizing: border-box;
+            color: #fff;
+            cursor: pointer;
+            display: inline-block;
+            font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 1.15385;
+            margin: 0;
+            outline: none;
+            padding: 8px .8em;
+            position: relative;
+            text-align: center;
+            text-decoration: none;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            vertical-align: baseline;
+            white-space: nowrap;
+        }
+        
+        .button-8 {
+            background-color: #0F1E31;
+            border: 1px solid transparent;
+            border-radius: 3px;
+            box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+            box-sizing: border-box;
+            color: #fff;
+            cursor: pointer;
+            display: inline-block;
+            font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 1.15385;
+            margin: 0;
+            outline: none;
+            padding: 8px .8em;
+            position: relative;
+            text-align: center;
+            text-decoration: none;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            vertical-align: baseline;
+            white-space: nowrap;
+            margin-left: 16em;
+            /* margin-right: 10em; */
+        }
+        
+        .button-7:hover,
+        .button-7:focus {
+            background-color: #07c;
+        }
+        
+        .button-7:focus {
+            box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+        }
+        
+        .button-7:active {
+            background-color: #0064bd;
+            box-shadow: none;
+        }
+        
+        .imagesb{
+            flex: right;
+            position: absolute;
+            top: -130px;
+            right: -20em;
+        }
+        
+        .cameraft{
+            position: absolute;
+            display: block;
+            margin: auto;
+            width: 50%;
+            margin-top: 0;
+            top: 120px;
+            right: 40em;
+        }
+        
+        .border-right {
+            border-right: 1px solid black;
+        }
+        
+        #col1 {
+            background: #3796DA;
+            height: 200px;
+            margin-top: 50px;
+        }
+        
+        .csquote{
+            float: right;
+        }
+        
+        .move{
+            margin-top: -16em;
+            list-style-type: none;
+        
+        }
+        
+        .guardss{
+            position: absolute;
+            list-style-type: none;
+            text-align: center;
+            display: block;
+            right: 47em;
+            top: 62em;
+        }
+        
+        .fguard{
+            position: absolute;
+            left: 23em;
+            top: 66em;
+        }
+        
+        .bullets{
+            list-style-type: none;
+        }
+        
+        .border-right{
+            border-right: 1px solid black;
+        }
+        
+        .parag1{
+            margin-top: 30px;
+            margin-left: 15em;
+            margin-right: 15em;
+            font-size: 14px;
+            text-align: justify;
+            font-weight: bolder;
+        }
+        
+        .parag2{
+            margin-top: 30px;
+            font-weight: bolder;
+            margin-left: 10em;
+            margin-right: 10em;
+        }
+        
+        .bluep{
+            color: #3796DA;
+            margin-left: 10em;
+            margin-right: 10em;
+            font-size: 13px;
+        }
+        
+        .blueps{
+            color: #3796DA;
+            margin-left: 12em;
+            margin-right: 12em;
+            font-size: 12px;
+        }
+        
+        .footer{
+            background-image: url("../assets/models/bkg\ partern\ 4.jpg");
+            width: 100%;
+            background-size: 600px 450px;
+            margin-top: 8em;
+            height: 100%;
+        }
+        
+        .fut{
+            color: white;
+            padding-top: 22px;
+        }
+        
+        
+        button:hover,
+        button:focus {
+            background-color: #3796da;
+        }
+        button {
+            height: 34px;
+            background: #3796da;
+            border: none;
+            color: white;
+            font-size: 1.25em;
+            font-family: 'Nanum Gothic';
+            border-radius: 4px;
+            cursor: pointer;
+            width: 167px;
+            margin-left: 29px;
+            padding-top: 5px;
+            padding: 4px;
+            border-radius: 7px;
+          }        
+          hr {
+            border: 1px dotted #ccc;
+          }
+          
+          .contact{
             height: 330px;
             border:#3796DA;
             color: black;
-            padding-bottom: 445px;
             margin-top: -210px;
-            margin-left: 850px;
-            width: 32%;
+            margin-left: 859px;
+            width: 530px;
             padding: 5px;
+            text-align: center;
             border-radius: 8px;
           }
-    }
-    @media only screen and (max-device-width: 1400px){
-        .images1 li {
-        height: 677px;
-        width: 998px;
-        bottom: 326px;
-        position: absolute;
-        margin-left: 123px;
-    }
-    .mobmenu{
-        display: none;
-    }
-    #copyright{
-        margin-top: 30px;
-    }
-    #image{
-        position: absolute;
-        margin-left: -20px;
-        margin-top: -84px;
-    }
-    .contact{
-        height: 330px;
-        border:#3796DA;
-        color: black;
-        padding-bottom: 445px;
-        margin-top: -210px;
-        margin-left: 850px;
-        width: 32%;
-        padding: 5px;
-        border-radius: 8px;
-      }
+        
+        .elem-group2{
+            margin-left: px;
+        }
+        
+        .map{
+              padding: 0em;
+              margin: 3px;
+              height: 623px;
+          }
+          .container{
+              padding-bottom: 0px;
+          }
+         
+        .h_line{
+            height: 0.5px;
+            background: #0f1e31;
+            width: 69px;
+            margin-left: 21px;
+            padding: 1px;
+            display:inline-block;
+            padding-top: 1px;
+        }
+        
+        * {box-sizing:border-box}
+        
+        /* Slideshow container */
+        .slideshow-container {
+          position: relative;
+          margin: auto;
+        }
+        
+        
+        
+        /* Next & previous buttons */
+        .prev, .next {
+          cursor: pointer;
+          position: absolute;
+          top: 50%;
+          width: auto;
+          margin-top: -22px;
+          padding: 16px;
+          color: white;
+          font-weight: bold;
+          font-size: 18px;
+          transition: 0.6s ease;
+          border-radius: 0 3px 3px 0;
+          user-select: none;
+        }
+        
+        /* Position the "next button" to the right */
+        .next {
+          right: 0;
+          border-radius: 3px 0 0 3px;
+        }
+        
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover, .next:hover {
+          background-color: rgba(0,0,0,0.8);
+        }
+        
+        /* Caption text */
+        .text {
+          color: #f2f2f2;
+          font-size: 15px;
+          padding: 8px 12px;
+          position: absolute;
+          bottom: 8px;
+          width: 100%;
+          text-align: center;
+        }
+        
+        /* Number text (1/3 etc) */
+        .numbertext {
+          color: #f2f2f2;
+          font-size: 12px;
+          padding: 8px 12px;
+          position: absolute;
+          top: 0;
+        }
+        
+        
+        .active, .dot:hover {
+          background-color: #717171;
+        }  
 }
-@media only screen and (max-device-width: 1366px){
+@media only screen and (max-device-width: 1366px) and (min-device-width: 1281px){
 /*LAPTOP SCREENS 1366px*/
     body {
         max-width: 100%;
         overflow-x: hidden;
         font-family: 'Open Sans';
         font-weight: 900;
+    }
+    #copyright{
+        margin-top: 0px;
+    }
+    .mobmenu{
+        display: none;
     }
     
     nav{
@@ -1117,16 +1557,16 @@
         max-width: 220px;
         object-fit: contain;
     }
-    .navbar-brand img{
+    .navbar-brand2 img{
         height: auto;
         width: auto;
         max-height: 100px;
         max-width: 220px;
-        margin-bottom: -60px;
+        margin-bottom: -90px;
         object-fit: contain;
         margin-left: -70px;
     }
-    
+  
     .column1 {
         font-size: 17px;
         text-align: left ;
@@ -1142,6 +1582,14 @@
         display: flex;
         margin-right: -23px;
         margin-top: 90px;
+    }
+    .column4{
+        margin-left: 80px;
+        margin-top: 60px;
+    }
+    .column3{
+        margin-left: 520px;
+        margin-top: -257px;
     }
    
     u{
@@ -1538,21 +1986,38 @@
     .active, .dot:hover {
       background-color: #717171;
     }
+
+    .navbar-brand img{
+        height: auto;
+        width: auto;
+        max-height: 100px;
+        max-width: 220px;
+        margin-bottom: -83px;
+        object-fit: contain;
+        margin-left: -70px;
+    }
+    #copyright{
+        margin-top: 50px;
+        margin-left: -50px;
+        font-family: 'Trebuchet MS';
+    }
 }
 /*LAPTOP SCREENS 720px*/
-@media only screen and (max-device-width: 1280px){
+@media only screen and (max-device-width: 1280px) and (min-device-width: 1025px){
     body {
         max-width: 100%;
         overflow-x: hidden;
         font-family:'Open Sans';
         font-weight: 900;
     }
-    
+    .mobmenu {
+        display: none;
+    }
     nav{
         padding: 4px;
         position: sticky;
         z-index: 1;
-        padding-bottom: 57px;
+        padding-bottom: 37px;
         margin-bottom: -40px;
     }
     
@@ -1561,6 +2026,7 @@
         margin: 0 auto;
         text-align: center;
         color: #0360d8;
+        margin-top: -10px;
     
     }
     #image {
@@ -1593,13 +2059,22 @@
         width: auto;
         max-height: 72px;
         max-width: 220px;
-        margin-top: 1px;
+        margin-top: 30px;
         margin-left: -30px;
         object-fit: contain;
     }
+    .navbar-brand2 img{
+        height: auto;
+        width: auto;
+        max-height: 100px;
+        max-width: 220px;
+        margin-bottom: -40px;
+        object-fit: contain;
+        margin-left: -70px;
+    }
     #log {
         margin-left: 80px;
-        margin-bottom: -10px;
+        margin-bottom: 30px;
     }
     
     .column1 {
@@ -1617,6 +2092,20 @@
         display: flex;
         margin-right: -23px;
         margin-top: 90px;
+    }
+    .column4{
+        margin-left: 80px;
+        margin-top: 60px;
+    }
+    .column3{
+        margin-left: 450px;
+        margin-top: -256px;
+    }
+    #copyright{
+        margin-top: 10px;
+        margin-top: 50px;
+        margin-left: -25px;
+        font-family: 'Trebuchet MS';
     }
     
     u{
@@ -1899,10 +2388,6 @@
     button:focus {
         background-color: #3796da;
     }
-    .column3 {
-        margin-left: 450px;
-        margin-top: -250px;
-    }
     button {
         height: 34px;
         background: #3796da;
@@ -2021,12 +2506,15 @@
     
 }
 /*LAPTOP SCREENS 1024px*/
-@media only screen and (max-device-width: 1024px){
+@media only screen and (max-device-width: 1024px) and (min-device-width: 769px){
     body {
         max-width: 100%;
         overflow-x: hidden;
         font-family: 'Open Sans';
         font-weight: 900;
+    }
+    .mobmenu{
+        display: none;
     }
     
     nav{
@@ -2070,8 +2558,13 @@
         width: auto;
         max-height: 72px;
         max-width: 150px;
-        margin-bottom: -60px;
+        margin-bottom: -115px;
         object-fit: contain;
+    }
+    .navbar-brand2 img{
+        margin-bottom:-60px;
+        object-fit: contain;
+        margin-left: 10px;
     }
     
     .column1 {
@@ -2092,10 +2585,15 @@
     }
     .column3 {
         margin-left: 370px;
-        margin-top: -290px;
+        margin-top: -256px;
     }
     .column4 {
         margin-left: 40px;
+    }
+    #copyright{
+        margin-top: 30px;
+        margin-left: 0px;
+        font-family: 'Trebuchet MS';
     }
     
     u{
@@ -2504,14 +3002,16 @@
 }
 
 /*LAPTOP SCREENS 768px*/
-@media only screen and (max-device-width: 768px){
+@media only screen and (max-device-width: 768px) and (min-device-width: 570px){
     body {
         max-width: 100%;
         overflow-x: hidden;
         font-family: 'Open Sans';
         font-weight: 900;
     }
-    
+    .mobmenu{
+        display: none;
+    }
     nav{
         padding: 4px;
         position: sticky;
@@ -2587,6 +3087,18 @@
         display: flex;
         margin-right: -23px;
         margin-top: 90px;
+    }
+    .column3 {
+        margin-left: 490px;
+        margin-top: -255px;
+    }
+    .column4 {
+        margin-left: 20px;
+    }
+    #copyright{
+        margin-top: 30px;
+        margin-left: 0px;
+        font-family: 'Trebuchet MS';
     }
     
     u{
@@ -2981,7 +3493,7 @@
     }
 }
 
-@media screen and (min-device-width: 570px) {
+@media screen and (min-device-width: 570px){
     .mobmenu{
         display: none;
     }
