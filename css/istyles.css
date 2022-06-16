@@ -1111,8 +1111,8 @@ u{
     }
     
     .csquote{
-        margin-left: 1223px;
-        margin-top: ;
+        margin-left: 1523px;
+        margin-top: -74px;
         position: absolute;
     }
     
@@ -1468,15 +1468,12 @@ nav li a:hover{
     max-height: 72px;
     max-width: 150px;
     margin-left: -23px;
-    margin-bottom: -55px;
+    margin-bottom: -125px;
 }
 .mobmenu{
     display: none;
 }
-.img-responsive{
-    margin-top: 12px;
-    margin-left: 10px;
-}
+
 .navbar-brand{
     margin-bottom: 30px;
     margin-top: 20px;
@@ -1699,14 +1696,13 @@ u{
     right: -21em;
 }
 
-.cameraft{
+.cameo{
     position: absolute;
     display: block;
     margin: auto;
-    width: 50%;
     margin-top: 0;
-    top: 133px;
-    right: 42em;}
+    top: 126px;
+    right: 32em;}
 
 .flex-container {
     display: flex;
@@ -1740,8 +1736,9 @@ u{
 
 .csquote{
     max-width: 100%;
-    left: 623px;
+    left: 1223px;
     position: absolute;
+    margin-top: -60px;
 }
 
 .booking{
@@ -2000,7 +1997,7 @@ u{
         text-align: center;
         display: block;
         right: 24em;
-        top: 1116px;
+        top: 1156px;
         height: 555px;
         object-fit: cover;
     }
@@ -2008,19 +2005,25 @@ u{
     .fguard{
         position: absolute;
         left: 20em;
-        top: 1146px;
+        top: 1186px;
         height: 524px;
         object-fit: cover;
     }
     .cameo{
-        margin-top: -6px;
+        margin-top: 0px;
     }
     .navbar-brand2 .img-responsive{
         margin-bottom: -120px;
         margin-left: 10px;
     }
     .csquote{
-       margin-right: 200px;
+            margin-left: 523px;
+            margin-top: -71px;
+            position: absolute;
+            height: 200px;
+    }
+    #log img{
+        margin-bottom: -40px;
     }
 
 }
