@@ -41,7 +41,7 @@
     #image{
         position: absolute;
         margin-left: 50px;
-        margin-top: 1px;
+        margin-top: 282px;
         }
     .column4{
         margin-left: 80px;
@@ -570,7 +570,7 @@
     #image{
         position: absolute;
         margin-left: -20px;
-        margin-top: -882px;
+        margin-top: -601px;
     }
     
     .column1 {
@@ -675,6 +675,8 @@
           width: 100%;
         }
       }
+
+
       .banner{
         bottom: 10;
         position: relative;
@@ -995,6 +997,17 @@
     .active, .dot:hover {
       background-color: #717171;
     }
+
+    @media screen and (max-width: 1536px) {
+        .column {
+          width: 100%;
+        }
+        #image{
+            position: absolute;
+            margin-left: -20px;
+            margin-top: -601px;
+        }
+      }
     }
 
     /*LAPTOP SCREENS 1440px*/
@@ -1068,7 +1081,7 @@
         #image{
             position: absolute;
             margin-left: -20px;
-            margin-top: -885px;
+            margin-top: -601px;
         }
         
         .column1 {
@@ -2585,7 +2598,7 @@
     }
     .column3 {
         margin-left: 370px;
-        margin-top: -256px;
+        margin-top: -366px;
     }
     .column4 {
         margin-left: 40px;
@@ -2654,7 +2667,9 @@
         margin-left: 123px;
     }
     #image{
-       display: none;
+        position: absolute;
+        margin-left: 50px;
+        margin-top: -26px;
     }
     
     .service_b{
@@ -2907,7 +2922,7 @@
         height: 330px;
         border:#3796DA;
         color: black;
-        margin-top: -170px;
+        margin-top: -370px;
         margin-left: 680px;
         width: 31%;
         text-align:center;
