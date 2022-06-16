@@ -1111,8 +1111,8 @@ u{
     }
     
     .csquote{
-        max-width: 100%;
-        left: 823px;
+        margin-left: 1223px;
+        margin-top: ;
         position: absolute;
     }
     
@@ -1992,6 +1992,39 @@ u{
     float: center;
     width: 29%;
 }
+
+@media only screen and (max-device-width: 1536px){
+    .guardss{
+        position: absolute;
+        list-style-type: none;
+        text-align: center;
+        display: block;
+        right: 24em;
+        top: 1116px;
+        height: 555px;
+        object-fit: cover;
+    }
+    
+    .fguard{
+        position: absolute;
+        left: 20em;
+        top: 1146px;
+        height: 524px;
+        object-fit: cover;
+    }
+    .cameo{
+        margin-top: -6px;
+    }
+    .navbar-brand2 .img-responsive{
+        margin-bottom: -120px;
+        margin-left: 10px;
+    }
+    .csquote{
+       margin-right: 200px;
+    }
+
+}
+
 }
 
 /*LAPTOP MEDIUM SCREENS 1440px ""if device width is greater than or equals to 1440px, then apply the CSS defined in this block.""*/
@@ -4058,7 +4091,8 @@ u{
         }
 
     }
-
+   
+  
 }
     /*LAPTOP MEDIUM SCREENS 768px*/
 @media screen and (max-device-width: 768px) and (min-device-width: 600px){
