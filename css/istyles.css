@@ -1972,6 +1972,9 @@ u{
     width: 55%;
     
 }
+.protection ul{
+    margin-top: 0px;
+}
 
 .professional ul {
     list-style-position: inside;
