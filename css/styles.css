@@ -1351,10 +1351,6 @@ button {
     padding: 4px;
     border-radius: 7px;
   }
- 
-
- 
-  
 
   hr {
     border: 1px dotted #ccc;
@@ -1457,6 +1453,25 @@ button {
 .active, .dot:hover {
   background-color: #717171;
 }
+
+@media only screen and (max-width: 1536px){
+
+.contact {
+    height: 330px;
+    border: #3796DA;
+    color: black;
+    padding-bottom: 445px;
+    margin-top: -290px;
+    margin-left: 950px;
+    width: 530px;
+    padding: 5px;
+    float: right;
+    border-radius: 8px;
+    overflow-x: hidden;
+}
+}
+
+
 }
 /*LAPTOP SCREENS 1440px*/
 @media only screen and (max-width: 1440px){
