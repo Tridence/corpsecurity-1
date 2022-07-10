@@ -860,7 +860,9 @@ u{
         margin-top: 42px;
         margin-left: 10px;
     }
-    
+    .row{
+        width: 95%;
+    }
     .column {
         font-family: "Myriad Pro";
         font-size: 19px;
