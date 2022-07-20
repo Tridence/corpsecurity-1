@@ -875,6 +875,7 @@ u{
         column-rule-width: 2px;
         column-rule-color: #3796da;
         column-rule-style: dotted;
+        column-width: 120px;
     }
     
     .vertical-line{
