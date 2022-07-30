@@ -2212,7 +2212,7 @@ u{
     padding: 30px;
     font-size: 55px;
     position: absolute;
-    left: 6em;
+    left: 5em;
     margin-top: 160px;
     font-weight: bolder;
     text-decoration-color: #3796DA;
@@ -2282,7 +2282,7 @@ u{
     vertical-align: baseline;
     white-space: nowrap;
     margin-left: 209px;
-    margin-top: 15px;
+    margin-top: 5px;
 }
 
 .button-8 {
@@ -2369,14 +2369,15 @@ u{
 
 #col1 {
     background: #3796DA;
-    height: 200px;
+    height: 250px;
     margin-top: 50px;
 }
 
 .csquote{
-    max-width: 100%;
-    left: 623px;
+    max-width: 80%;
+    left: 923px;
     position: absolute;
+    margin-top: -50px;
 }
 
 .booking{
@@ -2430,8 +2431,8 @@ u{
     list-style-type: none;
     text-align: center;
     display: block;
-    right: 19em;
-    top: 1232px;
+    right: 17em;
+    top: 1301px;
     height: 555px;
     object-fit: cover;
 }
@@ -2439,7 +2440,7 @@ u{
 .fguard{
     position: absolute;
     left: 15em;
-    top: 1262px;
+    top: 1332px;
     height: 524px;
     object-fit: cover;
 }
@@ -2659,7 +2660,7 @@ u{
         left: -167px;
     }
     .csquote{
-        left: 553px;
+        left: 753px;
         width: 100%;
         height: auto;
     }
