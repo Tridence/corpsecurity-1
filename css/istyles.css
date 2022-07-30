@@ -1266,6 +1266,20 @@ u{
     #log img{
         margin-bottom: -40px;
     }
+    .consultant ul{
+        list-style-position: inside;
+        justify-content: center;
+        margin-top: -331px;
+        margin-left: 1128px;
+        float: center;
+        width: 25%;
+    }
+    .img-responsive {
+        max-height: 72px;
+        max-width: 150px;
+        margin-left: -23px;
+        margin-bottom: -65px;
+    }
 
 }
 
@@ -3160,7 +3174,7 @@ u{
     .csquote{
         max-width: 100%;
         left: 820px;
-        margin-top: -90px;
+        margin-top: -93px;
         position: absolute;
     }
     
@@ -3210,7 +3224,7 @@ u{
         text-align: center;
         display: block;
         right: 16em;
-        top: 1288px;
+        top: 1338px;
         height: 555px;
         object-fit: cover;
     }
