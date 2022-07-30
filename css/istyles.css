@@ -3066,7 +3066,7 @@ u{
         vertical-align: baseline;
         white-space: nowrap;
         margin-left: 209px;
-        margin-top: 15px;
+        margin-top: 5px;
     }
     
     .button-8 {
@@ -3153,13 +3153,14 @@ u{
     
     #col1 {
         background: #3796DA;
-        height: 200px;
+        height: 250px;
         margin-top: 50px;
     }
     
     .csquote{
         max-width: 100%;
-        left: 570px;
+        left: 820px;
+        margin-top: -90px;
         position: absolute;
     }
     
@@ -3209,7 +3210,7 @@ u{
         text-align: center;
         display: block;
         right: 16em;
-        top: 1284px;
+        top: 1288px;
         height: 555px;
         object-fit: cover;
     }
@@ -3217,7 +3218,7 @@ u{
     .fguard{
         position: absolute;
         left: 16em;
-        top: 1247px;
+        top: 1301px;
         height: 524px;
         object-fit: cover;
     }
